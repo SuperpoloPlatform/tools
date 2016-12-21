@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Animations xmlns:xsi="http://www.w3.org/2001/XMLSchemainstance" xsi:noNamespaceSchemaLocation="Animation.xsd">
+	<AnimationDefinition duration = "0.5" name ="zhucaidan/kuaisudingwei" replayMode="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0.146484,0},{0.0695964,0},{0.29941379,0},{0.22234392,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.125" value="{{0.146484,0},{0.0695964,0},{0.45234359,0},{0.37509144,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.25" value="{{0.146484,0},{0.0695964,0},{0.6052734,0},{0.52783896,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.375" value="{{0.146484,0},{0.0695964,0},{0.75820319,0},{0.68058648,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.5" value="{{0.146484,0},{0.0695964,0},{0.911133,0},{0.833334,0}}" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	
+	<AnimationDefinition duration = "0.5" name ="zhucaidan/kuaisudingwei2" replayMode="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0.146484,0},{0.0695964,0},{0.911133,0},{0.833334,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.125" value="{{0.146484,0},{0.0695964,0},{0.75820319,0},{0.68058648,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.25" value="{{0.146484,0},{0.0695964,0},{0.6052734,0},{0.52783896,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.375" value="{{0.146484,0},{0.0695964,0},{0.45234359,0},{0.37509144,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.5" value="{{0.146484,0},{0.0695964,0},{0.29941379,0},{0.22234392,0}}" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+</Animations>

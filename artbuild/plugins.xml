@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<library>
+	<plugins>
+		<plugin name='null'>crystalspace.mesh.loader.null</plugin>
+		<plugin name='genmesh'>crystalspace.mesh.loader.genmesh</plugin>
+		<plugin name='genmeshfact'>crystalspace.mesh.loader.factory.genmesh</plugin>
+		<plugin name="cal3d">crystalspace.mesh.loader.sprite.cal3d</plugin>
+		<plugin name="cal3dfact">crystalspace.mesh.loader.factory.sprite.cal3d</plugin>
+	</plugins>
+</library>

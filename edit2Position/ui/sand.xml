@@ -1,0 +1,9 @@
+<application type="school">
+	<sandTable>
+		<label id="1">
+			<uiPosition>[-0.7590789794921875,0.39995598793029785,0.9454345703125]</uiPosition>
+			<playerPosition>[-1.7391510009765625,0.19995617866516113,-0.41796875]</playerPosition>
+			<playerRotation>[0,1.337223945874049,0]</playerRotation>
+		</label>
+	</sandTable>
+</application>

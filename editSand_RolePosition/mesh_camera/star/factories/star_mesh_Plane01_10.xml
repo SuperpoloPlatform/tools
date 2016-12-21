@@ -1,0 +1,17 @@
+<library>
+  <meshfact name="star_mesh_Plane01_10">
+    <plugin>genmeshfact</plugin>
+    <zuse />
+    <params>
+      <material>Material_M2_star</material>
+      <v x="-0.2293" y="0" z="-0.2293" u="0.0629" v="0.9451" nx="0" ny="1" nz="0" />
+      <v x="-0.2293" y="0" z="0.2293" u="0.0629" v="0.0634" nx="0" ny="1" nz="0" />
+      <v x="0.2293" y="0" z="0.2293" u="0.9447" v="0.0634" nx="0" ny="1" nz="0" />
+      <t v1="0" v2="1" v3="2" />
+      <t v1="2" v2="1" v3="0" />
+      <v x="0.2293" y="0" z="-0.2293" u="0.9447" v="0.9451" nx="0" ny="1" nz="0" />
+      <t v1="2" v2="3" v3="0" />
+      <t v1="0" v2="3" v3="2" />
+    </params>
+  </meshfact>
+</library>

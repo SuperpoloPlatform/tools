@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset xmlns:mx="http://www.adobe.com/2006/mxml" Name="uibemap" Imagefile="uibe_map.png" >
+	<Image Name="uibe_map" XPos="0" YPos="0" Width="1024" Height="922"/>
+	<Image Name="uibe_mark" XPos="648" YPos="951" Width="61" Height="72"/>
+	<Image Name="shang_normal" XPos="732" YPos="972" Width="20" Height="19"/>
+	<Image Name="shang_hover" XPos="762" YPos="971" Width="20" Height="19"/>
+	<Image Name="xia_normal" XPos="733" YPos="1003" Width="20" Height="19"/>
+	<Image Name="xia_hover" XPos="762" YPos="1005" Width="20" Height="19"/>
+	<Image Name="bg_text" XPos="868" YPos="991" Width="144" Height="24"/>
+	<Image Name="south" XPos="795" YPos="941" Width="62" Height="83"/>
+</Imageset>

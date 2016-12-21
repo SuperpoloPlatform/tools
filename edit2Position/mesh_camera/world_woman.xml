@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<library>
+
+	<textures>
+		<texture name="wm_toufa5.png">
+			<file>/art/models/woman/toufa5.png</file>      
+			<alpha>
+				<binary/>
+			</alpha>
+		</texture>
+		<texture name="wm_1786b770.png">
+			<file>/art/models/woman/1786b770.png</file>      
+			<alpha>
+				<binary/>
+			</alpha>
+		</texture>
+
+		<texture name="wm_xie2.png">
+			<file>/art/models/woman/xie2.png</file>      
+			<alpha>
+				<binary/>
+			</alpha>
+		</texture>
+
+		<texture name="wm_yifu4.jpg">
+			<file>/art/models/woman/yifu4.jpg</file>
+		</texture>
+		
+		<texture name="wm_yifu2.jpg">
+			<file>/art/models/woman/yifu2.jpg</file>
+		</texture>
+		
+	</textures>
+
+	<materials>
+		<material name="wm_yifu4">
+			<texture>wm_yifu4.jpg</texture>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+			<shader type="ambient">ambient</shader>
+			<shader type="diffuse">lighting_default_binalpha</shader>
+		</material>
+		<material name="wm_yifu2">
+			<texture>wm_yifu2.jpg</texture>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+			<shader type="ambient">ambient</shader>
+			<shader type="diffuse">lighting_default_binalpha</shader>
+		</material>
+
+		<material name="wm_xie2">
+			<texture>wm_xie2.png</texture>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+			<shader type="ambient">ambient</shader>
+			<shader type="diffuse">lighting_default_binalpha</shader>
+		</material>
+
+		<material name="wm_toufa5">
+			<texture>wm_toufa5.png</texture>
+			<shader type="ambient">ambient</shader>
+			<shader type="diffuse">lighting_default_binalpha</shader>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>
+		
+		<material name="wm_1786b770">
+			<texture>wm_1786b770.png</texture>
+			<shader type="ambient">ambient</shader>
+			<shader type="diffuse">lighting_default_binalpha</shader>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>
+	</materials>
+
+	<meshfact name="woman">
+		<plugin>crystalspace.mesh.loader.factory.sprite.cal3d</plugin>
+		<params>
+			<options rotate_x_axis="yes" flip_textures="no" />
+			<animation file="/art/models/woman/stand.caf" name="stand" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+			<animation file="/art/models/woman/run.caf" name="run" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+			<animation file="/art/models/woman/walk.caf" name="walk" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+			<animation file="/art/models/woman/woman.caf" name="woman" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+			<scale value="0.01" />
+			<skeleton file="/art/models/woman/woman.csf" />
+
+			<mesh file="/art/models/woman/toufa1.cmf" name="toufa1" material="wm_toufa5" />
+			<mesh file="/art/models/woman/toufa2.cmf" name="toufa2" material="wm_1786b770" />
+			<mesh file="/art/models/woman/yifu4.cmf" name="yifu4" material="wm_yifu4" />
+			<mesh file="/art/models/woman/yifu2.cmf" name="yifu2" material="wm_yifu2" />
+			<mesh file="/art/models/woman/xie.cmf" name="xie" material="wm_xie2" />
+
+			<!--<socket name="socketjian" tri="90" mesh="2" submesh="0" />-->
+			
+			<hardtransform
+				rot_axis_x="1"
+				rot_axis_y="0"
+				rot_axis_z="0"
+				rot_angle="90" />
+			<hardtransform
+				rot_axis_x="0"
+				rot_axis_y="1"
+				rot_axis_z="0"
+				rot_angle="180" />
+	
+		</params>
+	</meshfact>
+</library>

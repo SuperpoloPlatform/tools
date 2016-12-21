@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<world>
+	<start name="Camera">
+		<sector>Scene</sector>
+		<position x="8.6592" y="5.1716" z="-4.595" />
+		<up x="-0.3307" y="0.8953" z="0.2984" />
+		<forward x="-0.6549" y="-0.4452" z="0.6107" />
+	</start>
+	<sector name="Scene">
+		<cullerp plugin="crystalspace.culling.frustvis" />
+	</sector>
+</world>

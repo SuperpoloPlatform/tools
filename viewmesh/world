@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<world>
+  <plugins>
+    <plugin name='genmesh'>crystalspace.mesh.loader.genmesh</plugin>
+    <plugin name='genmeshfact'>crystalspace.mesh.loader.factory.genmesh</plugin>
+  </plugins>
+  <shaders/>
+  <textures>
+    <texture name='aa.png'>
+      <file>textures/aa.png</file>
+    </texture>
+  </textures>
+  <materials>
+    <material name='Material_0'>
+      <texture>aa.png</texture>
+    </material>
+  </materials>
+  <sounds/>
+  <settings>
+    <clearscreen>yes</clearscreen>
+    <clearzbuf>yes</clearzbuf>
+  </settings>
+  <library>factories/mesh_Cylinder_0.xml</library>
+  <triggers/>
+  <sector name='Scene'>
+    <cullerp plugin='crystalspace.culling.frustvis'/>
+    <meshobj name='mesh_Cylinder_0.xml'>
+      <plugin>genmesh</plugin>
+      <params>
+        <factory>mesh_Cylinder_0</factory>
+      </params>
+      <zuse/>
+      <move>
+        <v y='0' x='0' z='0'/>
+      </move>
+    </meshobj>
+    <light name='Lamp'>
+      <center y='5.9039' x='4.0762' z='1.0055'/>
+      <color blue='1.0' green='1.0' red='1.0'/>
+      <radius brightness='1.0'>29.9999828339</radius>
+    </light>
+  </sector>
+  <sequences/>
+  <start name='Camera'>
+    <sector>Scene</sector>
+    <position y='5.3437' x='7.4811' z='-6.5076'/>
+    <up y='0.8953' x='-0.3307' z='0.2984'/>
+    <forward y='-0.4452' x='-0.6549' z='0.6107'/>
+  </start>
+</world>

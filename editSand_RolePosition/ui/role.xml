@@ -1,0 +1,22 @@
+<application type="school">
+	<roleSelect>
+		<role>
+			<position>[1.170370101928711,1.2957385778427124,-5.648445129394531]</position>
+			<rotation>[0,1.1798842071872504,0]</rotation>
+		</role>
+		<camera>
+			<position>[0,2.0399999618530273,-2.2830007076263428]</position>
+			<rotation>[0,0,0]</rotation>
+		</camera>
+	</roleSelect>
+	<roleInitialize>
+		<role>
+			<position>[-3.7800445556640625,1.2957385778427124,-7.997642517089844]</position>
+			<rotation>[0,2.371876224430063,0]</rotation>
+		</role>
+		<camera>
+			<position>[0,0,0]</position>
+			<rotation>[0,0,0]</rotation>
+		</camera>
+	</roleInitialize>
+</application>

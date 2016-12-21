@@ -1,0 +1,1143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Falagard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Falagard.xsd">
+	<!--
+    ***************************************************
+        interface/Button
+    ***************************************************
+    -->
+	<WidgetLook name="interface/Button">
+		<PropertyDefinition name="NormalTextColour" initialValue="FFFFFF00" redrawOnWrite="true"/>
+		<PropertyDefinition name="HoverTextColour" initialValue="FFFFFF00" redrawOnWrite="true"/>
+		<PropertyDefinition name="PushedTextColour" initialValue="FFFFFF00" redrawOnWrite="true"/>
+		<PropertyDefinition name="DisabledTextColour" initialValue="FF888888" redrawOnWrite="true"/>
+		<PropertyDefinition name="text_theme" initialValue="" redrawOnWrite="true"/>
+		<PropertyDefinition name="font" initialValue="HeiTi" redrawOnWrite="true"/>
+		<PropertyDefinition name="VertLabelFormatting" initialValue="CentreAligned" redrawOnWrite="true"/>
+		<PropertyDefinition name="HorzLabelFormatting" initialValue="CentreAligned" redrawOnWrite="true"/>
+		<PropertyDefinition name="NormalImage" initialValue="" redrawOnWrite="true"/>
+		<PropertyDefinition name="HoverImage" initialValue="" redrawOnWrite="true"/>
+		<PropertyDefinition name="PushedImage" initialValue="" redrawOnWrite="true"/>
+		<PropertyDefinition name="DisabledImage" initialValue="" redrawOnWrite="true"/>
+		<PropertyDefinition name="ButtonImage" initialValue="" redrawOnWrite="true"/>
+		<PropertyDefinition name="ButtonBg" initialValue="" redrawOnWrite="true"/>
+		<PropertyDefinition name="VertImageCentreAligned" initialValue="CentreAligned" layoutOnWrite="true"/>
+		<PropertyDefinition name="HorzImageCentreAligned" initialValue="CentreAligned" layoutOnWrite="true"/>
+		<PropertyDefinition name="VertImageStretched" initialValue="Stretched" layoutOnWrite="true"/>
+		<PropertyDefinition name="HorzImageStretched" initialValue="Stretched" layoutOnWrite="true"/>
+		<PropertyDefinition name="BgImageWidth" initialValue="" layoutOnWrite="true"/>
+		<PropertyDefinition name="BgImageHeight" initialValue="" layoutOnWrite="true"/>
+		<PropertyDefinition name="ButtonImageWidth" initialValue="" layoutOnWrite="true"/>
+		<PropertyDefinition name="ButtonImageHeight" initialValue="" layoutOnWrite="true"/>
+		<PropertyDefinition name="ButtonWidth" initialValue="" layoutOnWrite="true"/>
+		<PropertyDefinition name="ButtonHeight" initialValue="" layoutOnWrite="true"/>
+		<ImagerySection name="label">
+			<TextComponent>
+				<Area>
+					<Dim type="LeftEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="TopEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="Width">
+						<WidgetDim dimension="Width"/>
+					</Dim>
+					<Dim type="Height">
+						<WidgetDim dimension="Height"/>
+					</Dim>
+				</Area>
+				<TextProperty name="text_theme"/>
+				<FontProperty name="font"/>
+				<VertFormatProperty name="VertLabelFormatting"/>
+				<HorzFormatProperty name="HorzLabelFormatting"/>
+			</TextComponent>
+		</ImagerySection>
+		<ImagerySection name="normal">
+			<ImageryComponent>
+				<Area>
+					<Dim type="LeftEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="TopEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="Width">
+						<UnifiedDim scale="1" type="Width"/>
+					</Dim>
+					<Dim type="Height">
+						<UnifiedDim scale="1" type="Height"/>
+					</Dim>
+				</Area>
+				<ImageProperty name="NormalImage"/>
+				<VertFormatProperty name="VertImageStretched"/>
+				<HorzFormatProperty name="HorzImageStretched"/>
+			</ImageryComponent>
+		</ImagerySection>
+		<ImagerySection name="hover">
+			<ImageryComponent>
+				<Area>
+					<Dim type="LeftEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="TopEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="Width">
+						<UnifiedDim scale="1" type="Width"/>
+					</Dim>
+					<Dim type="Height">
+						<UnifiedDim scale="1" type="Height"/>
+					</Dim>
+				</Area>
+				<ImageProperty name="HoverImage"/>
+				<VertFormatProperty name="VertImageStretched"/>
+				<HorzFormatProperty name="HorzImageStretched"/>
+			</ImageryComponent>
+		</ImagerySection>
+		<ImagerySection name="pushed">
+			<ImageryComponent>
+				<Area>
+					<Dim type="LeftEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="TopEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="Width">
+						<UnifiedDim scale="1" type="Width"/>
+					</Dim>
+					<Dim type="Height">
+						<UnifiedDim scale="1" type="Height"/>
+					</Dim>
+				</Area>
+				<ImageProperty name="PushedImage"/>
+				<VertFormatProperty name="VertImageStretched"/>
+				<HorzFormatProperty name="HorzImageStretched"/>
+			</ImageryComponent>
+		</ImagerySection>
+		<ImagerySection name="buton_bg">
+			<ImageryComponent>
+				<Area>
+					<Dim type="LeftEdge">
+						<AbsoluteDim value="0.5">
+							<DimOperator op="Multiply">
+								<WidgetDim dimension="Width">
+									<DimOperator op="Subtract">
+										<WidgetDim dimension="Width">
+											<DimOperator op="Multiply">
+												<PropertyDim name="BgImageWidth">
+													<DimOperator op="Divide">
+														<PropertyDim name="ButtonWidth"/>
+													</DimOperator>
+												</PropertyDim>
+											</DimOperator>
+										</WidgetDim>
+									</DimOperator>
+								</WidgetDim>
+							</DimOperator>
+						</AbsoluteDim>
+					</Dim>
+					<Dim type="TopEdge">
+						<AbsoluteDim value="0.5">
+							<DimOperator op="Multiply">
+								<WidgetDim dimension="Height">
+									<DimOperator op="Subtract">
+										<WidgetDim dimension="Height">
+											<DimOperator op="Multiply">
+												<PropertyDim name="BgImageHeight">
+													<DimOperator op="Divide">
+														<PropertyDim name="ButtonHeight"/>
+													</DimOperator>
+												</PropertyDim>
+											</DimOperator>
+										</WidgetDim>
+									</DimOperator>
+								</WidgetDim>
+							</DimOperator>
+						</AbsoluteDim>
+					</Dim>
+					<Dim type="Width">
+						<WidgetDim dimension="Width">
+							<DimOperator op="Multiply">
+								<PropertyDim name="BgImageWidth">
+									<DimOperator op="Divide">
+										<PropertyDim name="ButtonWidth"/>
+									</DimOperator>
+								</PropertyDim>
+							</DimOperator>
+						</WidgetDim>
+					</Dim>
+					<Dim type="Height">
+						<WidgetDim dimension="Height">
+							<DimOperator op="Multiply">
+								<PropertyDim name="BgImageHeight">
+									<DimOperator op="Divide">
+										<PropertyDim name="ButtonHeight"/>
+									</DimOperator>
+								</PropertyDim>
+							</DimOperator>
+						</WidgetDim>
+					</Dim>
+				</Area>
+				<ImageProperty name="ButtonBg"/>
+				<VertFormatProperty name="VertImageStretched"/>
+				<HorzFormatProperty name="HorzImageStretched"/>
+			</ImageryComponent>
+		</ImagerySection>
+		<ImagerySection name="button_img">
+			<ImageryComponent>
+				<Area>
+					<Dim type="LeftEdge">
+						<AbsoluteDim value="0.5">
+							<DimOperator op="Multiply">
+								<WidgetDim dimension="Width">
+									<DimOperator op="Subtract">
+										<WidgetDim dimension="Width">
+											<DimOperator op="Multiply">
+												<PropertyDim name="ButtonImageWidth">
+													<DimOperator op="Divide">
+														<PropertyDim name="ButtonWidth"/>
+													</DimOperator>
+												</PropertyDim>
+											</DimOperator>
+										</WidgetDim>
+									</DimOperator>
+								</WidgetDim>
+							</DimOperator>
+						</AbsoluteDim>
+					</Dim>
+					<Dim type="TopEdge">
+						<AbsoluteDim value="0.5">
+							<DimOperator op="Multiply">
+								<WidgetDim dimension="Height">
+									<DimOperator op="Subtract">
+										<WidgetDim dimension="Height">
+											<DimOperator op="Multiply">
+												<PropertyDim name="ButtonImageHeight">
+													<DimOperator op="Divide">
+														<PropertyDim name="ButtonHeight"/>
+													</DimOperator>
+												</PropertyDim>
+											</DimOperator>
+										</WidgetDim>
+									</DimOperator>
+								</WidgetDim>
+							</DimOperator>
+						</AbsoluteDim>
+					</Dim>
+					<Dim type="Width">
+						<WidgetDim dimension="Width">
+							<DimOperator op="Multiply">
+								<PropertyDim name="ButtonImageWidth">
+									<DimOperator op="Divide">
+										<PropertyDim name="ButtonWidth"/>
+									</DimOperator>
+								</PropertyDim>
+							</DimOperator>
+						</WidgetDim>
+					</Dim>
+					<Dim type="Height">
+						<WidgetDim dimension="Height">
+							<DimOperator op="Multiply">
+								<PropertyDim name="ButtonImageHeight">
+									<DimOperator op="Divide">
+										<PropertyDim name="ButtonHeight"/>
+									</DimOperator>
+								</PropertyDim>
+							</DimOperator>
+						</WidgetDim>
+					</Dim>
+				</Area>
+				<ImageProperty name="ButtonImage"/>
+				<VertFormatProperty name="VertImageStretched"/>
+				<HorzFormatProperty name="HorzImageStretched"/>
+			</ImageryComponent>
+		</ImagerySection>
+		<StateImagery name="Normal">
+			<Layer>
+				<Section section="normal"/>
+				<Section section="buton_bg"/>
+				<Section section="button_img"/>
+				<Section section="label">
+					<ColourProperty name="NormalTextColour"/>
+				</Section>
+			</Layer>
+		</StateImagery>
+		<StateImagery name="Hover">
+			<Layer>
+				<Section section="hover"/>
+				<Section section="buton_bg"/>
+				<Section section="button_img"/>
+				<Section section="label">
+					<ColourProperty name="HoverTextColour"/>
+				</Section>
+			</Layer>
+		</StateImagery>
+		<StateImagery name="Pushed">
+			<Layer>
+				<Section section="pushed"/>
+				<Section section="buton_bg"/>
+				<Section section="button_img"/>
+				<Section section="label">
+					<ColourProperty name="PushedTextColour"/>
+				</Section>
+			</Layer>
+		</StateImagery>
+		<StateImagery name="PushedOff">
+			<Layer>
+				<Section section="hover"/>
+				<Section section="buton_bg"/>
+				<Section section="button_img"/>
+				<Section section="label">
+					<ColourProperty name="HoverTextColour"/>
+				</Section>
+			</Layer>
+		</StateImagery>
+		<StateImagery name="Disabled">
+			<Layer>
+				<Section section="normal">
+					<Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F"/>
+				</Section>
+				<Section section="buton_bg">
+					<Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F"/>
+				</Section>
+				<Section section="button_img">
+					<Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F"/>
+				</Section>
+				<Section section="label">
+					<ColourProperty name="DisabledTextColour"/>
+				</Section>
+			</Layer>
+		</StateImagery>
+	</WidgetLook>
+		<!--
+    ***************************************************
+        interface/StaticImage
+    ***************************************************
+    -->
+	<WidgetLook name="interface/StaticImage">
+		<PropertyDefinition name="bg_image" initialValue="" redrawOnWrite="true"/>
+		<PropertyDefinition name="image_frame" initialValue="" redrawOnWrite="true"/>
+		<ImagerySection name="WithFrameSection">
+			<ImageryComponent>
+				<Area>
+					<Dim type="LeftEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="TopEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="Width">
+						<UnifiedDim scale="1" type="Width"/>
+					</Dim>
+					<Dim type="Height">
+						<UnifiedDim scale="1" type="Height"/>
+					</Dim>
+				</Area>
+				<ImageProperty name="bg_image"/>
+				<VertFormat type="Stretched"/>
+				<HorzFormat type="Stretched"/>
+			</ImageryComponent>
+		</ImagerySection>
+		<ImagerySection name="EnabledBackgroundSection">
+			<ImageryComponent>
+				<Area>
+					<Dim type="LeftEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="TopEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="Width">
+						<UnifiedDim scale="1" type="Width"/>
+					</Dim>
+					<Dim type="Height">
+						<UnifiedDim scale="1" type="Height"/>
+					</Dim>
+				</Area>
+				<ImageProperty name="image_frame"/>
+				<VertFormat type="Stretched"/>
+				<HorzFormat type="Stretched"/>
+			</ImageryComponent>
+		</ImagerySection>
+		<ImagerySection name="EnabledImageSection">
+			<ImageryComponent>
+				<Area>
+					<Dim type="LeftEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="TopEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="Width">
+						<UnifiedDim scale="1" type="Width"/>
+					</Dim>
+					<Dim type="Height">
+						<UnifiedDim scale="1" type="Height"/>
+					</Dim>
+				</Area>
+				<ImageProperty name="Image"/>
+				<VertFormat type="Stretched"/>
+				<HorzFormat type="Stretched"/>
+			</ImageryComponent>
+		</ImagerySection>
+		<StateImagery name="Enabled">
+			<Layer>
+			
+			</Layer>
+		</StateImagery>
+		<StateImagery name="Disabled">
+			<Layer>
+				
+			</Layer>
+		</StateImagery>
+		<StateImagery name="EnabledFrame">
+			<Layer>
+				
+			</Layer>
+		</StateImagery>
+		<StateImagery name="DisabledFrame">
+			<Layer>
+				
+			</Layer>
+		</StateImagery>
+		<StateImagery name="WithFrameEnabledBackground">
+			<Layer>
+				<Section section="WithFrameSection"/>
+				<Section section="EnabledBackgroundSection"/>
+				<Section section="EnabledImageSection"/>
+			</Layer>
+		</StateImagery>
+		<StateImagery name="WithFrameDisabledBackground">
+			<Layer>
+				<Section section="WithFrameSection">
+					<Colours topRight="FF7F7F7F" topLeft="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F"/>
+				</Section>
+				<Section section="EnabledBackgroundSection">
+					<Colours topRight="FF7F7F7F" topLeft="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F"/>
+				</Section>
+				<Section section="EnabledImageSection">
+					<Colours topRight="FF7F7F7F" topLeft="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F"/>
+				</Section>
+			</Layer>
+		</StateImagery>
+		<StateImagery name="NoFrameEnabledBackground">
+			<Layer>
+				<Section section="EnabledBackgroundSection"/>
+				<Section section="EnabledImageSection"/>
+			</Layer>
+		</StateImagery>
+		<StateImagery name="NoFrameDisabledBackground">
+			<Layer>
+				<Section section="EnabledBackgroundSection">
+					<Colours topRight="FF7F7F7F" topLeft="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F"/>
+				</Section>
+				<Section section="EnabledImageSection">
+					<Colours topRight="FF7F7F7F" topLeft="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F"/>
+				</Section>
+			</Layer>
+		</StateImagery>
+		<StateImagery name="WithFrameImage">
+			<Layer>
+			</Layer>
+		</StateImagery>
+		<StateImagery name="NoFrameImage">
+			<Layer>
+				
+			</Layer>
+		</StateImagery>
+	</WidgetLook>
+	<!--
+    ***************************************************
+        interface/Editbox
+    ***************************************************
+    -->
+	<WidgetLook name="interface/Editbox">
+		<PropertyDefinition name="text" initialValue="" redrawOnWrite="true"/>
+		<PropertyDefinition name="image" initialValue="" redrawOnWrite="true"/>
+       <PropertyDefinition name="SelectedTextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />
+       <PropertyDefinition name="ActiveSelectionColour" initialValue="FFFFFFFF" redrawOnWrite="true" />
+       <PropertyDefinition name="InactiveSelectionColour" initialValue="FF999999" redrawOnWrite="true" />
+		<PropertyDefinition name="NormalTextColour" initialValue="FFFFFF00" redrawOnWrite="true"/>
+		<PropertyDefinition name="VertLabelFormatting" initialValue="CentreAligned" redrawOnWrite="true"/>
+		<PropertyDefinition name="HorzLabelFormatting" initialValue="CentreAligned" redrawOnWrite="true"/>
+		<Property name="MouseCursorImage" value="set:ice image:MouseTextBar" />
+		<NamedArea name="TextArea">
+			<Area>
+				<Dim type="LeftEdge">
+					<AbsoluteDim value="0"/>
+				</Dim>
+				<Dim type="TopEdge">
+					<AbsoluteDim value="0"/>
+				</Dim>
+				<Dim type="Width">
+					<UnifiedDim type="Width" scale="1"/>
+				</Dim>
+				<Dim type="Height">
+					<UnifiedDim type="Height" scale="1"/>
+				</Dim>
+			</Area>
+		</NamedArea>
+		<ImagerySection name="main">
+			<ImageryComponent>
+				<Area>
+					<Dim type="LeftEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="TopEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="Width">
+						<UnifiedDim type="Width" scale="1"/>
+					</Dim>
+					<Dim type="Height">
+						<UnifiedDim type="Height" scale="1"/>
+					</Dim>
+				</Area>
+				<ImageProperty name="image"/>
+				<VertFormat type="Stretched"/>
+				<HorzFormat type="Stretched"/>
+			</ImageryComponent>
+			<TextComponent>
+				<Area>
+					<Dim type="LeftEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="TopEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="Width">
+						<UnifiedDim type="Width" scale="1"/>
+					</Dim>
+					<Dim type="Height">
+						<UnifiedDim type="Height" scale="1"/>
+					</Dim>
+				</Area>
+				<TextProperty name="text"/>
+				<VertFormatProperty name="VertLabelFormatting"/>
+				<HorzFormatProperty name="HorzLabelFormatting"/>
+			</TextComponent>
+		</ImagerySection>
+		<ImagerySection name="Carat">
+			<TextComponent>
+				<Area>
+					<Dim type="LeftEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="TopEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="Width">
+						<ImageDim imageset="ice" image="EditBoxCarat" dimension="Width"/>
+					</Dim>
+					<Dim type="BottomEdge">
+						<UnifiedDim scale="1.0" type="BottomEdge"/>
+					</Dim>
+				</Area>
+				<Image imageset="ice" image="EditBoxCarat"/>
+				<VertFormat type="Stretched"/>
+				<HorzFormat type="Stretched"/>
+			</TextComponent>
+		</ImagerySection>
+		<!-- 
+			StateImagery Enabled
+		-->
+		<StateImagery name="Enabled">
+			<Layer>
+				<Section section="main"/>
+			</Layer>
+		</StateImagery>
+		<!-- 
+			StateImagery Disabled
+		-->
+		<StateImagery name="Disabled">
+			<Layer>
+				<Section section="main">
+					<Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F"/>
+				</Section>
+			</Layer>
+		</StateImagery>
+		<StateImagery name="ActiveSelection">
+           <Layer>
+               <Section section="selection">
+                   <ColourProperty name="ActiveSelectionColour" />
+               </Section>
+           </Layer>
+       </StateImagery>
+       <StateImagery name="InactiveSelection">
+           <Layer>
+               <Section section="selection">
+                   <ColourProperty name="InactiveSelectionColour" />
+               </Section>
+           </Layer>
+       </StateImagery>
+	</WidgetLook>
+	<!--
+   ***************************************************
+       interface/HorizontalScrollbar
+   ***************************************************
+   -->
+	<WidgetLook name="interface/HorizontalScrollbar">
+		<PropertyDefinition name="HscrollbarWidth" initialValue="" layoutOnWrite="true"/>
+		<PropertyDefinition name="HscrollbarHeight" initialValue="" layoutOnWrite="true"/>
+		<PropertyDefinition name="VscrollBackground" initialValue="" redrawOnWrite="true"/>
+		<PropertyDefinition name="ThumbWidth" initialValue="" layoutOnWrite="true"/>
+		<PropertyDefinition name="IncbtnWidth" initialValue="" layoutOnWrite="true"/>
+		<PropertyDefinition name="DecbtnWidth" initialValue="" layoutOnWrite="true"/>
+		<Property value="False" name="VerticalScrollbar"/>
+		<NamedArea name="ThumbTrackArea">
+			<Area>
+				<Dim type="LeftEdge">
+					<WidgetDim dimension="RightEdge" widget="__auto_decbtn__"/>
+				</Dim>
+				<Dim type="TopEdge">
+					<AbsoluteDim value="0"/>
+				</Dim>
+				<Dim type="Width">
+					<WidgetDim dimension="Width">
+						<DimOperator op="Subtract">
+							<WidgetDim dimension="Width" widget="__auto_decbtn__">
+								<DimOperator op="Add">
+									<WidgetDim dimension="Width" widget="__auto_incbtn__"/>
+								</DimOperator>
+							</WidgetDim>
+						</DimOperator>
+					</WidgetDim>
+				</Dim>
+				<Dim type="Height">
+					<WidgetDim dimension="Height"/>
+				</Dim>
+			</Area>
+		</NamedArea>
+		<Child type="interface/Thumb" nameSuffix="__auto_thumb__">
+			<Area>
+				<Dim type="LeftEdge">
+					<WidgetDim dimension="RightEdge" widget="__auto_decbtn__"/>
+				</Dim>
+				<Dim type="TopEdge">
+					<AbsoluteDim value="0"/>
+				</Dim>
+				<Dim type="Width">
+					<WidgetDim dimension="Width">
+						<DimOperator op="Multiply">
+							<PropertyDim name="ThumbWidth">
+								<DimOperator op="Divide">
+									<PropertyDim name="HscrollbarWidth"/>
+								</DimOperator>
+							</PropertyDim>
+						</DimOperator>
+					</WidgetDim>
+				</Dim>
+				<Dim type="Height">
+					<WidgetDim dimension="Height"/>
+				</Dim>
+			</Area>
+		</Child>
+		<Child type="interface/Button" nameSuffix="__auto_incbtn__">
+			<Area>
+				<Dim type="LeftEdge">
+					<WidgetDim dimension="Width">
+						<DimOperator op="Subtract">
+							<WidgetDim dimension="Width" widget="__auto_incbtn__"/>
+						</DimOperator>
+					</WidgetDim>
+				</Dim>
+				<Dim type="TopEdge">
+					<AbsoluteDim value="0"/>
+				</Dim>
+				<Dim type="Width">
+					<WidgetDim dimension="Width">
+						<DimOperator op="Multiply">
+							<PropertyDim name="IncbtnWidth">
+								<DimOperator op="Divide">
+									<PropertyDim name="HscrollbarWidth"/>
+								</DimOperator>
+							</PropertyDim>
+						</DimOperator>
+					</WidgetDim>
+				</Dim>
+				<Dim type="Height">
+					<WidgetDim dimension="Height"/>
+				</Dim>
+			</Area>
+		</Child>
+		<Child type="interface/Button" nameSuffix="__auto_decbtn__">
+			<Area>
+				<Dim type="LeftEdge">
+					<AbsoluteDim value="0"/>
+				</Dim>
+				<Dim type="TopEdge">
+					<AbsoluteDim value="0"/>
+				</Dim>
+				<Dim type="Width">
+					<WidgetDim dimension="Width">
+						<DimOperator op="Multiply">
+							<PropertyDim name="DecbtnWidth">
+								<DimOperator op="Divide">
+									<PropertyDim name="HscrollbarWidth"/>
+								</DimOperator>
+							</PropertyDim>
+						</DimOperator>
+					</WidgetDim>
+				</Dim>
+				<Dim type="Height">
+					<WidgetDim dimension="Height"/>
+				</Dim>
+			</Area>
+		</Child>
+		<ImagerySection name="enableSection">
+			<ImageryComponent>
+				<Area>
+					<Dim type="LeftEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="TopEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="Width">
+						<WidgetDim dimension="Width"/>
+					</Dim>
+					<Dim type="Height">
+						<WidgetDim dimension="Height"/>
+					</Dim>
+				</Area>
+				<ImageProperty name="HscrollBackground"/>
+				<VertFormat type="Stretched"/>
+				<HorzFormat type="Stretched"/>
+			</ImageryComponent>
+		</ImagerySection>
+		<StateImagery name="Enabled">
+			<Layer>
+				<Section section="enableSection"/>
+			</Layer>
+		</StateImagery>
+		<StateImagery name="Disabled">
+			<Layer>
+				<Section section="enableSection">
+					<Colours topRight="FF7F7F7F" topLeft="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F"/>
+				</Section>
+			</Layer>
+		</StateImagery>
+	</WidgetLook>
+	  <!--
+   ***************************************************
+       interface/VerticalScrollbar
+   ***************************************************
+   -->
+	<WidgetLook name="interface/VerticalScrollbar">
+		<PropertyDefinition name="VscrollbarWidth" initialValue="" layoutOnWrite="true"/>
+		<PropertyDefinition name="VscrollbarHeight" initialValue="" layoutOnWrite="true"/>
+		<PropertyDefinition name="VscrollBackground" initialValue="" redrawOnWrite="true"/>
+		<PropertyDefinition name="ThumbHeight" initialValue="" redrawOnWrite="true"/>
+		<PropertyDefinition name="IncbtnHeight" initialValue="" layoutOnWrite="true"/>
+		<PropertyDefinition name="DecbtnHeight" initialValue="" layoutOnWrite="true"/>
+		<Property value="True" name="VerticalScrollbar"/>
+		<NamedArea name="ThumbTrackArea">
+			<Area>
+				<Dim type="LeftEdge">
+					<AbsoluteDim value="0"/>
+				</Dim>
+				<Dim type="TopEdge">
+					<WidgetDim dimension="BottomEdge" widget="__auto_decbtn__"/>
+				</Dim>
+				<Dim type="Width">
+					<WidgetDim dimension="Width"/>
+				</Dim>
+				<Dim type="Height">
+					<WidgetDim dimension="Height">
+						<DimOperator op="Subtract">
+							<WidgetDim dimension="Height" widget="__auto_decbtn__">
+								<DimOperator op="Add">
+									<WidgetDim dimension="Height" widget="__auto_incbtn__"/>
+								</DimOperator>
+							</WidgetDim>
+						</DimOperator>
+					</WidgetDim>
+				</Dim>
+			</Area>
+		</NamedArea>
+		<Child type="interface/Thumb" nameSuffix="__auto_thumb__">
+			<Area>
+				<Dim type="LeftEdge">
+					<AbsoluteDim value="0"/>
+				</Dim>
+				<Dim type="TopEdge">
+					<WidgetDim dimension="BottomEdge" widget="__auto_decbtn__"/>
+				</Dim>
+				<Dim type="Width">
+					<WidgetDim dimension="Width"/>
+				</Dim>
+				<Dim type="Height">
+					<WidgetDim dimension="Height">
+						<DimOperator op="Multiply">
+							<PropertyDim name="ThumbHeight">
+								<DimOperator op="Divide">
+									<PropertyDim name="VscrollbarHeight"/>
+								</DimOperator>
+							</PropertyDim>
+						</DimOperator>
+					</WidgetDim>
+				</Dim>
+			</Area>
+		</Child>
+		<Child type="interface/Button" nameSuffix="__auto_incbtn__">
+			<Area>
+				<Dim type="LeftEdge">
+					<AbsoluteDim value="0"/>
+				</Dim>
+				<Dim type="TopEdge">
+					<WidgetDim dimension="Height">
+						<DimOperator op="Subtract">
+							<WidgetDim dimension="Height" widget="__auto_incbtn__"/>
+						</DimOperator>
+					</WidgetDim>
+				</Dim>
+				<Dim type="Width">
+					<WidgetDim dimension="Width"/>
+				</Dim>
+				<Dim type="Height">
+					<WidgetDim dimension="Height">
+						<DimOperator op="Multiply">
+							<PropertyDim name="IncbtnHeight">
+								<DimOperator op="Divide">
+									<PropertyDim name="VscrollbarHeight"/>
+								</DimOperator>
+							</PropertyDim>
+						</DimOperator>
+					</WidgetDim>
+				</Dim>
+			</Area>
+		</Child>
+		<Child type="interface/Button" nameSuffix="__auto_decbtn__">
+			<Area>
+				<Dim type="LeftEdge">
+					<AbsoluteDim value="0"/>
+				</Dim>
+				<Dim type="TopEdge">
+					<AbsoluteDim value="0"/>
+				</Dim>
+				<Dim type="Width">
+					<WidgetDim dimension="Width"/>
+				</Dim>
+				<Dim type="Height">
+					<WidgetDim dimension="Height">
+						<DimOperator op="Multiply">
+							<PropertyDim name="DecbtnHeight">
+								<DimOperator op="Divide">
+									<PropertyDim name="VscrollbarHeight"/>
+								</DimOperator>
+							</PropertyDim>
+						</DimOperator>
+					</WidgetDim>
+				</Dim>
+			</Area>
+		</Child>
+		<ImagerySection name="enableSection">
+			<ImageryComponent>
+				<Area>
+					<Dim type="LeftEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="TopEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="Width">
+						<WidgetDim dimension="Width"/>
+					</Dim>
+					<Dim type="Height">
+						<WidgetDim dimension="Height"/>
+					</Dim>
+				</Area>
+				<ImageProperty name="VscrollBackground"/>
+				<VertFormat type="Stretched"/>
+				<HorzFormat type="Stretched"/>
+			</ImageryComponent>
+		</ImagerySection>
+		<StateImagery name="Enabled">
+			<Layer>
+				<Section section="enableSection"/>
+			</Layer>
+		</StateImagery>
+		<StateImagery name="Disabled">
+			<Layer>
+				<Section section="enableSection">
+					<Colours topRight="FF7F7F7F" topLeft="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F"/>
+				</Section>
+			</Layer>
+		</StateImagery>
+	</WidgetLook>
+		<!--
+   ***************************************************
+       interface/StaticText
+   ***************************************************
+   -->
+	<WidgetLook name="interface/StaticText">
+		<PropertyDefinition name="text_theme" initialValue="" redrawOnWrite="true"/>
+		<PropertyDefinition name="bg_image" initialValue="" redrawOnWrite="true"/>
+		<PropertyDefinition name="font" initialValue="FangSongTi" redrawOnWrite="true"/>
+		<PropertyDefinition name="VertLabelFormatting" initialValue="CentreAligned" redrawOnWrite="true"/>
+		<PropertyDefinition name="HorzLabelFormatting" initialValue="LeftAligned" redrawOnWrite="true"/>
+		<NamedArea name="WithFrameTextRenderArea">
+			<Area>
+				<Dim type="LeftEdge">
+					<AbsoluteDim value="0"/>
+				</Dim>
+				<Dim type="TopEdge">
+					<AbsoluteDim value="0"/>
+				</Dim>
+				<Dim type="Width">
+					<WidgetDim dimension="Width"/>
+				</Dim>
+				<Dim type="Height">
+					<WidgetDim dimension="Height"/>
+				</Dim>
+			</Area>
+		</NamedArea>
+		<Child type="interface/VerticalScrollbar" nameSuffix="__auto_vscrollbar__">
+			<Area>
+				<Dim type="LeftEdge">
+					<WidgetDim dimension="Width">
+						<DimOperator op="Subtract">
+							<WidgetDim dimension="Width" widget="__auto_vscrollbar__"/>
+						</DimOperator>
+					</WidgetDim>
+				</Dim>
+				<Dim type="TopEdge">
+					<WidgetDim dimension="Height">
+						<DimOperator op="Subtract">
+							<WidgetDim dimension="Height" widget="__auto_vscrollbar__"/>
+						</DimOperator>
+					</WidgetDim>
+				</Dim>
+				<Dim type="Width">
+					<UnifiedDim type="Width" scale="0.1"/>
+				</Dim>
+				<Dim type="Height">
+					<WidgetDim dimension="Height"/>
+				</Dim>
+			</Area>
+			<Property name="AlwaysOnTop" value="True"/>
+		</Child>
+		<Child type="interface/HorizontalScrollbar" nameSuffix="__auto_hscrollbar__">
+			<Area>
+				<Dim type="LeftEdge">
+					<WidgetDim dimension="Width">
+						<DimOperator op="Subtract">
+							<WidgetDim dimension="Width" widget="__auto_hscrollbar__"/>
+						</DimOperator>
+					</WidgetDim>
+				</Dim>
+				<Dim type="TopEdge">
+					<WidgetDim dimension="Height">
+						<DimOperator op="Subtract">
+							<WidgetDim dimension="Height" widget="__auto_hscrollbar__"/>
+						</DimOperator>
+					</WidgetDim>
+				</Dim>
+				<Dim type="Width">
+					<WidgetDim dimension="Width"/>
+				</Dim>
+				<Dim type="Height">
+					<UnifiedDim type="Height" scale="0.1"/>
+				</Dim>
+			</Area>
+			<Property name="AlwaysOnTop" value="True"/>
+		</Child>
+		<ImagerySection name="frameSection">
+			<FrameComponent>
+				<Area>
+					<Dim type="LeftEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="TopEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="Width">
+						<WidgetDim dimension="Width"/>
+					</Dim>
+					<Dim type="Height">
+						<WidgetDim dimension="Height"/>
+					</Dim>
+				</Area>
+			</FrameComponent>
+		</ImagerySection>
+		<ImagerySection name="backgroundSection">
+			<ImageryComponent>
+				<Area>
+					<Dim type="LeftEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="TopEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="Width">
+						<WidgetDim dimension="Width"/>
+					</Dim>
+					<Dim type="Height">
+						<WidgetDim dimension="Height"/>
+					</Dim>
+				</Area>
+				<ImageProperty name="bg_image"/>
+				<VertFormat type="Stretched"/>
+				<HorzFormat type="Stretched"/>
+			</ImageryComponent>
+		</ImagerySection>
+		<ImagerySection name="textSection">
+			<TextComponent>
+				<Area>
+					<Dim type="LeftEdge">
+						<UnifiedDim type="Width" scale="0.084"/>
+					</Dim>
+					<Dim type="TopEdge">
+						<UnifiedDim type="Height" scale="0.076"/>
+					</Dim>
+					<Dim type="Width">
+						<UnifiedDim type="Width" scale="0.932"/>
+					</Dim>
+					<Dim type="Height">
+						<UnifiedDim type="Height" scale="0.848"/>
+					</Dim>
+				</Area>
+				<TextProperty name="text_theme"/>
+				<FontProperty name="font"/>
+				<VertFormatProperty name="VertLabelFormatting"/>
+				<HorzFormatProperty name="HorzLabelFormatting"/>
+			</TextComponent>
+		</ImagerySection>
+		<StateImagery name="Enabled">
+			<Layer>
+				<Section section="textSection"/>
+			</Layer>
+		</StateImagery>
+		<StateImagery name="Disabled">
+			<Layer>
+				<Section section="textSection">
+					<Colours topRight="FF7F7F7F" topLeft="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F"/>
+				</Section>
+			</Layer>
+		</StateImagery>
+		<StateImagery name="EnabledFrame">
+			<Layer>
+				<Section section="frameSection"/>
+				<Section section="textSection"/>
+			</Layer>
+		</StateImagery>
+		<StateImagery name="DisabledFrame">
+			<Layer>
+				<Section section="frameSection">
+					<Colours topRight="FF7F7F7F" topLeft="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F"/>
+				</Section>
+				<Section section="textSection">
+					<Colours topRight="FF7F7F7F" topLeft="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F"/>
+				</Section>
+			</Layer>
+		</StateImagery>
+		<StateImagery name="WithFrameEnabledBackground">
+			<Layer>
+				<Section section="backgroundSection"/>
+				<Section section="frameSection"/>
+				<Section section="textSection"/>
+			</Layer>
+		</StateImagery>
+		<StateImagery name="WithFrameDisabledBackground">
+			<Layer>
+				<Section section="backgroundSection">
+					<Colours topRight="FF7F7F7F" topLeft="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F"/>
+				</Section>
+				<Section section="frameSection">
+					<Colours topRight="FF7F7F7F" topLeft="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F"/>
+				</Section>
+				<Section section="textSection">
+					<Colours topRight="FF7F7F7F" topLeft="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F"/>
+				</Section>
+			</Layer>
+		</StateImagery>
+		<StateImagery name="NoFrameEnabledBackground">
+			<Layer>
+				
+			</Layer>
+		</StateImagery>
+		<StateImagery name="NoFrameDisabledBackground">
+			<Layer>
+				
+			</Layer>
+		</StateImagery>
+	</WidgetLook>
+
+<!--    
+	***************************************************        
+				/Thumb    
+	***************************************************   
+	-->
+	<WidgetLook name="interface/Thumb">
+		<PropertyDefinition name="NormalImage" redrawOnWrite="true" initialValue=""/>
+		<PropertyDefinition name="HoverImage" redrawOnWrite="true" initialValue=""/>
+		<Property name="VertFree" value="True"/>
+		<ImagerySection name="normal">
+			<ImageryComponent>
+				<Area>
+					<Dim type="LeftEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="TopEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="Width">
+						<UnifiedDim scale="1.0" type="Width"/>
+					</Dim>
+					<Dim type="Height">
+						<UnifiedDim scale="1.0" type="Height"/>
+					</Dim>
+				</Area>
+				<ImageProperty name="ThumbNormalImage"/>
+				<VertFormat type="Stretched"/>
+				<HorzFormat type="Stretched"/>
+			</ImageryComponent>
+		</ImagerySection>
+		<ImagerySection name="hover">
+			<ImageryComponent>
+				<Area>
+					<Dim type="LeftEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="TopEdge">
+						<AbsoluteDim value="0"/>
+					</Dim>
+					<Dim type="Width">
+						<UnifiedDim scale="1.0" type="Width"/>
+					</Dim>
+					<Dim type="Height">
+						<UnifiedDim scale="1.0" type="Height"/>
+					</Dim>
+				</Area>
+				<ImageProperty name="ThumbHoverImage"/>
+				<VertFormat type="Stretched"/>
+				<HorzFormat type="Stretched"/>
+			</ImageryComponent>
+		</ImagerySection>
+		<StateImagery name="Normal">
+			<Layer>
+				<Section section="normal"/>
+			</Layer>
+		</StateImagery>
+		<StateImagery name="Hover">
+			<Layer>
+				<Section section="hover"/>
+			</Layer>
+		</StateImagery>
+		<StateImagery name="Pushed">
+			<Layer>
+				<Section section="hover"/>
+			</Layer>
+		</StateImagery>
+		<StateImagery name="Disabled">
+			<Layer>
+				<Section section="normal">
+					<Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F"/>
+				</Section>
+			</Layer>
+		</StateImagery>
+	</WidgetLook>
+
+
+</Falagard>

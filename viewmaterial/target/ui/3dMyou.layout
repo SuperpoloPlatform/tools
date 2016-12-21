@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="root" >
+	    <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0.000918184,0},{-0.000939633,0},{1.07497,0},{0.996972,0}}" />
+        <Window Type="3dMyou/DefaultWindow" Name="3dMyou/mainBody" >
+    		<Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="bg_image" Value="set: image:" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.000743147,0},{-0.00113478,0},{1.04659,0},{1.53218,0}}" />
+            <Window Type="3dMyou/DefaultWindow" Name="3dMyou/right_button" >
+                <Property Name="bg_image" Value="set: image:" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.830922,0},{0.0133013,0},{0.993759,0},{0.983228,0}}" />
+                <Window Type="3dMyou/Button" Name="3dMyou/material1" >
+                    <Property Name="HoverImage" Value="set:3dMyou image:materials1" />
+                    <Property Name="text_theme" Value="材质一" />
+                    <Property Name="NormalImage" Value="set:3dMyou image:materials1" />
+                    <Property Name="PushedImage" Value="set:3dMyou image:materials1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0266982,0},{0.0192268,0},{0.933851,0},{0.17396,0}}" />
+                </Window>
+                <Window Type="3dMyou/Button" Name="3dMyou/material2" >
+                    <Property Name="HoverImage" Value="set:3dMyou image:materials2" />
+                    <Property Name="text_theme" Value="材质二" />
+                    <Property Name="NormalImage" Value="set:3dMyou image:materials2" />
+                    <Property Name="PushedImage" Value="set:3dMyou image:materials2" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0223781,0},{0.183008,0},{0.938742,0},{0.326192,0}}" />
+                </Window>
+                <Window Type="3dMyou/Button" Name="3dMyou/material3" >
+                    <Property Name="HoverImage" Value="set:3dMyou image:materials3" />
+                    <Property Name="text_theme" Value="材质三" />
+                    <Property Name="NormalImage" Value="set:3dMyou image:materials3" />
+                    <Property Name="PushedImage" Value="set:3dMyou image:materials3" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0105675,0},{0.333113,0},{0.944089,0},{0.477327,0}}" />
+                </Window>
+                <Window Type="3dMyou/Button" Name="3dMyou/material4" >
+                    <Property Name="HoverImage" Value="set:3dMyou image:materials4" />
+                    <Property Name="text_theme" Value="材质四" />
+                    <Property Name="NormalImage" Value="set:3dMyou image:materials4" />
+                    <Property Name="PushedImage" Value="set:3dMyou image:materials4" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0300981,0},{0.490041,0},{0.942366,0},{0.639674,0}}" />
+                </Window>
+                <Window Type="3dMyou/Button" Name="3dMyou/material5" >
+                    <Property Name="HoverImage" Value="set:3dMyou image:materials5" />
+                    <Property Name="text_theme" Value="材质五" />
+                    <Property Name="NormalImage" Value="set:3dMyou image:materials5" />
+                    <Property Name="PushedImage" Value="set:3dMyou image:materials5" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0249221,0},{0.659791,0},{0.933239,0},{0.811053,0}}" />
+                </Window>
+                <Window Type="3dMyou/Button" Name="3dMyou/material6" >
+                    <Property Name="HoverImage" Value="set:3dMyou image:materials6" />
+                    <Property Name="text_theme" Value="材质六" />
+                    <Property Name="NormalImage" Value="set:3dMyou image:materials6" />
+                    <Property Name="PushedImage" Value="set:3dMyou image:materials6" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0142962,0},{0.833816,0},{0.944572,0},{0.98765,0}}" />
+                </Window>
+            </Window>
+            <Window Type="3dMyou/DefaultWindow" Name="3dMyou/box" >
+                <Property Name="bg_image" Value="set:3dMyou image:box" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.221629,0},{0.873888,0},{0.318381,0},{0.991543,0}}" />
+            </Window>
+            <Window Type="3dMyou/DefaultWindow" Name="3dMyou/sphere" >
+                <Property Name="bg_image" Value="set:3dMyou image:sphere" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.355693,0},{0.872224,0},{0.447062,0},{0.992375,0}}" />
+            </Window>
+            <Window Type="3dMyou/DefaultWindow" Name="3dMyou/cylinder" >
+                <Property Name="bg_image" Value="set:3dMyou image:cylinder" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.482454,0},{0.873056,0},{0.575913,0},{0.993206,0}}" />
+            </Window>
+            <Window Type="3dMyou/DefaultWindow" Name="3dMyou/teapot" >
+                <Property Name="bg_image" Value="set:3dMyou image:teapot" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.613562,0},{0.872225,0},{0.707273,0},{0.990711,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>868</width>
+    <height>686</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabWidget_8">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_90">
+       <attribute name="title">
+        <string>dijit.layout.ContentPane</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QWidget" name="widget" native="true">
+          <property name="id" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-props" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-id" stdset="0">
+           <string/>
+          </property>
+          <property name="eventlist" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QTabWidget" name="tabWidget_9">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_91">
+       <attribute name="title">
+        <string>dijit.layout.BorderContainer</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QFrame" name="frame">
+          <property name="frameShape">
+           <enum>QFrame::Box</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <property name="lineWidth">
+           <number>2</number>
+          </property>
+          <property name="id" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-props" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-id" stdset="0">
+           <string/>
+          </property>
+          <property name="eventlist" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QTabWidget" name="tabWidget_10">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_92">
+       <attribute name="title">
+        <string>dijit.layout.AccordionContainer</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QToolBox" name="toolBox">
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <property name="id" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-props" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-id" stdset="0">
+           <string/>
+          </property>
+          <property name="eventlist" stdset="0">
+           <string/>
+          </property>
+          <widget class="QWidget" name="page">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>155</width>
+             <height>61</height>
+            </rect>
+           </property>
+           <attribute name="label">
+            <string>Page 1</string>
+           </attribute>
+          </widget>
+          <widget class="QWidget" name="page_2">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>155</width>
+             <height>61</height>
+            </rect>
+           </property>
+           <attribute name="label">
+            <string>Page 2</string>
+           </attribute>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="0" column="5">
+     <widget class="QTabWidget" name="tabWidget_11">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_93">
+       <attribute name="title">
+        <string>dijit.layout.TabContainer</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QTabWidget" name="tabWidget">
+          <property name="id" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-props" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-id" stdset="0">
+           <string/>
+          </property>
+          <property name="eventlist" stdset="0">
+           <string/>
+          </property>
+          <widget class="QWidget" name="tab">
+           <attribute name="title">
+            <string>Tab 1</string>
+           </attribute>
+          </widget>
+          <widget class="QWidget" name="tab_32">
+           <attribute name="title">
+            <string>Tab 2</string>
+           </attribute>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QTabWidget" name="tabWidget_13">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_95">
+       <attribute name="title">
+        <string>dijit.form.CheckBox</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QCheckBox" name="checkBox">
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+          <property name="id" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-props" stdset="0">
+           <string/>
+          </property>
+          <property name="name" stdset="0">
+           <string/>
+          </property>
+          <property name="type" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-id" stdset="0">
+           <string/>
+          </property>
+          <property name="eventlist" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QTabWidget" name="tabWidget_14">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_96">
+       <attribute name="title">
+        <string>dijit.form.ComboBox</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_6">
+        <item>
+         <widget class="QComboBox" name="comboBox">
+          <property name="id" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-props" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-type" stdset="0">
+           <string>dijit.form.ComboBox</string>
+          </property>
+          <property name="name" stdset="0">
+           <string/>
+          </property>
+          <property name="type" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-id" stdset="0">
+           <string/>
+          </property>
+          <property name="eventlist" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="QTabWidget" name="tabWidget_34">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_98">
+       <attribute name="title">
+        <string>dijit.form.Select</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_7">
+        <item>
+         <widget class="QComboBox" name="comboBox_2">
+          <property name="id" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-props" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-type" stdset="0">
+           <string>dijit.form.Select</string>
+          </property>
+          <property name="name" stdset="0">
+           <string/>
+          </property>
+          <property name="type" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-id" stdset="0">
+           <string/>
+          </property>
+          <property name="eventlist" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="1" column="5">
+     <widget class="QTabWidget" name="tabWidget_35">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_99">
+       <attribute name="title">
+        <string>dijit.form.TextBox</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_8">
+        <item>
+         <widget class="QLineEdit" name="lineEdit">
+          <property name="id" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-props" stdset="0">
+           <string/>
+          </property>
+          <property name="name" stdset="0">
+           <string/>
+          </property>
+          <property name="type" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-id" stdset="0">
+           <string/>
+          </property>
+          <property name="eventlist" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="1" column="7">
+     <widget class="QTabWidget" name="tabWidget_24">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_97">
+       <attribute name="title">
+        <string>dijit.form.Button</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_9">
+        <item>
+         <widget class="QPushButton" name="pushButton">
+          <property name="text">
+           <string>PushButton</string>
+          </property>
+          <property name="id" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-props" stdset="0">
+           <string/>
+          </property>
+          <property name="name" stdset="0">
+           <string/>
+          </property>
+          <property name="type" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-id" stdset="0">
+           <string/>
+          </property>
+          <property name="eventlist" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="2" column="7">
+     <widget class="QTabWidget" name="tabWidget_62">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_131">
+       <attribute name="title">
+        <string>dijit.form.VerticalSlider</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_14">
+        <item>
+         <widget class="QSlider" name="verticalSlider">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="id" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-props" stdset="0">
+           <string/>
+          </property>
+          <property name="name" stdset="0">
+           <string/>
+          </property>
+          <property name="type" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-id" stdset="0">
+           <string/>
+          </property>
+          <property name="intermediateChanges" stdset="0">
+           <string/>
+          </property>
+          <property name="eventlist" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QTabWidget" name="tabWidget_36">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_100">
+       <attribute name="title">
+        <string>dijit.form.NumberSpinner</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_15">
+        <item>
+         <widget class="QSpinBox" name="spinBox">
+          <property name="id" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-props" stdset="0">
+           <string/>
+          </property>
+          <property name="name" stdset="0">
+           <string/>
+          </property>
+          <property name="type" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-id" stdset="0">
+           <string/>
+          </property>
+          <property name="constraints" stdset="0">
+           <string/>
+          </property>
+          <property name="smallDelta" stdset="0">
+           <string/>
+          </property>
+          <property name="eventlist" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QTabWidget" name="tabWidget_37">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_107">
+       <attribute name="title">
+        <string>dijit.form.TimeTextBox</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_16">
+        <item>
+         <widget class="QTimeEdit" name="timeEdit">
+          <property name="id" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-props" stdset="0">
+           <string/>
+          </property>
+          <property name="name" stdset="0">
+           <string/>
+          </property>
+          <property name="type" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-id" stdset="0">
+           <string/>
+          </property>
+          <property name="eventlist" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="3" column="3">
+     <widget class="QTabWidget" name="tabWidget_39">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_109">
+       <attribute name="title">
+        <string>dijit.form.DateTextBox</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_17">
+        <item>
+         <widget class="QDateEdit" name="dateEdit">
+          <property name="id" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-props" stdset="0">
+           <string/>
+          </property>
+          <property name="name" stdset="0">
+           <string/>
+          </property>
+          <property name="type" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-id" stdset="0">
+           <string/>
+          </property>
+          <property name="eventlist" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QTabWidget" name="tabWidget_41">
+      <property name="maximumSize">
+       <size>
+        <width>170</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_111">
+       <attribute name="title">
+        <string>label</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_19">
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QTabWidget" name="tabWidget_42">
+      <property name="maximumSize">
+       <size>
+        <width>170</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_112">
+       <attribute name="title">
+        <string>dijit.InlineEditBox</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_20">
+        <item>
+         <widget class="QPlainTextEdit" name="plainTextEdit">
+          <property name="id" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-props" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-id" stdset="0">
+           <string/>
+          </property>
+          <property name="eventlist" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="4" column="3">
+     <widget class="QTabWidget" name="tabWidget_44">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_114">
+       <attribute name="title">
+        <string>dijit.ProgressBar</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_21">
+        <item>
+         <widget class="QProgressBar" name="progressBar">
+          <property name="value">
+           <number>24</number>
+          </property>
+          <property name="id" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-props" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-id" stdset="0">
+           <string/>
+          </property>
+          <property name="eventlist" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QTabWidget" name="tabWidget_59">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_128">
+       <attribute name="title">
+        <string>dijit.form.RadioButton</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_10">
+        <item>
+         <widget class="QRadioButton" name="radioButton">
+          <property name="text">
+           <string>RadioButton</string>
+          </property>
+          <property name="id" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-props" stdset="0">
+           <string/>
+          </property>
+          <property name="name" stdset="0">
+           <string/>
+          </property>
+          <property name="type" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-id" stdset="0">
+           <string/>
+          </property>
+          <property name="eventlist" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QTabWidget" name="tabWidget_58">
+      <property name="maximumSize">
+       <size>
+        <width>170</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_127">
+       <attribute name="title">
+        <string>dijit.form.MultiSelect</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_11">
+        <item>
+         <widget class="QListWidget" name="listWidget">
+          <property name="id" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-props" stdset="0">
+           <string/>
+          </property>
+          <property name="name" stdset="0">
+           <string/>
+          </property>
+          <property name="type" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-id" stdset="0">
+           <string/>
+          </property>
+          <property name="eventlist" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="2" column="3">
+     <widget class="QTabWidget" name="tabWidget_61">
+      <property name="maximumSize">
+       <size>
+        <width>170</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_130">
+       <attribute name="title">
+        <string>dijit.form.Form</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_12">
+        <item>
+         <widget class="QTableWidget" name="tableWidget">
+          <property name="id" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-props" stdset="0">
+           <string/>
+          </property>
+          <property name="name" stdset="0">
+           <string/>
+          </property>
+          <property name="type" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-id" stdset="0">
+           <string/>
+          </property>
+          <property name="eventlist" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="2" column="5">
+     <widget class="QTabWidget" name="tabWidget_60">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_129">
+       <attribute name="title">
+        <string>dijit.form.HorizontalSlider</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_13">
+        <item>
+         <widget class="QSlider" name="horizontalSlider">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="id" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-props" stdset="0">
+           <string/>
+          </property>
+          <property name="name" stdset="0">
+           <string/>
+          </property>
+          <property name="type" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-id" stdset="0">
+           <string/>
+          </property>
+          <property name="intermediateChanges" stdset="0">
+           <string/>
+          </property>
+          <property name="eventlist" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="3" column="5">
+     <widget class="QTabWidget" name="tabWidget_40">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_110">
+       <attribute name="title">
+        <string>dijit.form.DropDownButton</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_18">
+        <item>
+         <widget class="QToolButton" name="toolButton">
+          <property name="text">
+           <string>...</string>
+          </property>
+          <property name="arrowType">
+           <enum>Qt::DownArrow</enum>
+          </property>
+          <property name="id" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-props" stdset="0">
+           <string/>
+          </property>
+          <property name="name" stdset="0">
+           <string/>
+          </property>
+          <property name="type" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-id" stdset="0">
+           <string/>
+          </property>
+          <property name="eventlist" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="4" column="5">
+     <widget class="QTabWidget" name="tabWidget_45">
+      <property name="maximumSize">
+       <size>
+        <width>170</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_115">
+       <attribute name="title">
+        <string>dijit.Tree</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_22">
+        <item>
+         <widget class="QTreeWidget" name="treeWidget">
+          <property name="id" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-props" stdset="0">
+           <string/>
+          </property>
+          <property name="data-dojo-id" stdset="0">
+           <string/>
+          </property>
+          <property name="eventlist" stdset="0">
+           <string/>
+          </property>
+          <column>
+           <property name="text">
+            <string notr="true">1</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

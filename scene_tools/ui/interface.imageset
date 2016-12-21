@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    interface imageset
+-->
+<Imageset Name="interface" Imagefile="interface.png"  NativeHorzRes="1024" NativeVertRes="1024" AutoScaled="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Imageset.xsd">
+	<!--
+		login interface
+	-->
+	<Image Name="btn_down" XPos="314" YPos="385" Width="142" Height="35"/>
+	<Image Name="btn_hover" XPos="160" YPos="385" Width="142" Height="35"/>
+	<Image Name="btn_normal" XPos="7" YPos="384" Width="142" Height="35"/>
+	<Image Name="btn_exit_text" XPos="670" YPos="385" Width="54" Height="33"/>
+	<Image Name="btn_reg_text" XPos="572" YPos="285" Width="55" Height="32"/>
+	<Image Name="btn_login_text" XPos="572" YPos="244" Width="55" Height="34"/>
+	<Image Name="input" XPos="466" YPos="204" Width="157" Height="35"/>
+	<Image Name="text_password" XPos="566" YPos="385" Width="89" Height="34"/>
+	<Image Name="text_username" XPos="467" YPos="385" Width="88" Height="34"/>
+	<!--
+		toolbar
+	-->
+	<Image Name="tool_all" XPos="6" YPos="324" Width="600" Height="48"/>
+	<Image Name="tool_frame_down" XPos="532" YPos="245" Width="27" Height="37"/>
+	<Image Name="tool_frame_hover" XPos="495" YPos="245" Width="27" Height="37"/>
+	<Image Name="tool_frame_normal" XPos="461" YPos="245" Width="27" Height="37"/>
+	<Image Name="tool_btn_bg" XPos="520" YPos="287" Width="23" Height="31"/>
+	<Image Name="help_button" XPos="492" YPos="288" Width="18" Height="25"/>
+	<Image Name="system_button" XPos="457" YPos="290" Width="24" Height="19"/>
+	<Image Name="random_team_button" XPos="430" YPos="292" Width="22" Height="18"/>
+	<Image Name="battle_field_button" XPos="402" YPos="291" Width="20" Height="20"/>
+	<Image Name="social_button" XPos="371" YPos="289" Width="23" Height="26"/>
+	<Image Name="task_button" XPos="345" YPos="289" Width="18" Height="24"/>
+	<Image Name="achievement_button" XPos="314" YPos="286" Width="19" Height="29"/>
+	<Image Name="talent_button" XPos="283" YPos="286" Width="21" Height="27"/>
+	<Image Name="skills_button" XPos="253" YPos="286" Width="22" Height="29"/>
+	<Image Name="role_button" XPos="224" YPos="288" Width="23" Height="26"/>
+	<Image Name="experience_line" XPos="224" YPos="268" Width="152" Height="10"/>
+	<Image Name="experience_frame" XPos="389" YPos="264" Width="59" Height="14"/>
+	<Image Name="left_warc" XPos="629" YPos="103" Width="142" Height="84"/>
+	<Image Name="right_warc" XPos="626" YPos="9" Width="142" Height="84"/>
+	<Image Name="ico_bag" XPos="395" YPos="216" Width="38" Height="38"/>
+	<!--
+		common image
+	-->
+	<Image Name="dialog_close_down" XPos="117" YPos="149" Width="25" Height="24"/>
+	<Image Name="dialog_close_normal" XPos="84" YPos="149" Width="25" Height="24"/>
+	<Image Name="window_base" XPos="734" YPos="553" Width="285" Height="360"/>
+	
+	<Image Name="titlebar_left_edge" XPos="10" YPos="176" Width="8" Height="23"/>
+	<Image Name="titlebar_right_edge" XPos="301" YPos="176" Width="8" Height="23"/>
+	<Image Name="titlebar_background" XPos="76" YPos="176" Width="10" Height="23"/>
+	<Image Name="titlebar" XPos="3" YPos="176" Width="307" Height="24"/>
+	
+	<Image Name="yellow_frame" XPos="442" YPos="524" Width="42" Height="42"/>
+	
+	<Image Name="progress_bar" XPos="466" YPos="204" Width="157" Height="35"/>
+	
+	<Image Name="frame_middle_right" XPos="626" YPos="703" Width="10" Height="28"/>
+	<Image Name="frame_middle_left" XPos="502" YPos="702" Width="9" Height="28"/>
+	<Image Name="frame_down_right" XPos="604" YPos="736" Width="33" Height="26"/>
+	<Image Name="frame_down_middle" XPos="551" YPos="753" Width="37" Height="9"/>
+	<Image Name="frame_down_left" XPos="502" YPos="736" Width="37" Height="26"/>
+	<Image Name="frame_top_left" XPos="502" YPos="663" Width="36" Height="34"/>
+	<Image Name="frame_top_right" XPos="603" YPos="663" Width="32" Height="34"/>
+	<Image Name="frame_top_middle" XPos="552" YPos="663" Width="35" Height="7"/>
+	
+	<Image Name="select_area" XPos="498" YPos="574" Width="183" Height="27"/>
+	<!--
+		role interface
+	-->
+	<Image Name="role_titlebar" XPos="734" YPos="553" Width="285" Height="58"/>
+	<Image Name="role_theme" XPos="7" YPos="523" Width="321" Height="351"/>
+	<!--
+		role status bar
+	-->
+	<Image Name="HeadFrame" XPos="234" YPos="93" Width="76" Height="76"/>
+	<Image Name="MP" XPos="83" YPos="106" Width="142" Height="10"/>
+	<Image Name="HP" XPos="83" YPos="92" Width="142" Height="10"/>
+	<Image Name="BlackHeadBg" XPos="4" YPos="93" Width="72" Height="72"/>
+	<Image Name="TargetStatusBar" XPos="241" YPos="3" Width="232" Height="84"/>
+	<Image Name="RoleStatusBar" XPos="4" YPos="3" Width="232" Height="84"/>
+	<Image Name="Level" XPos="83" YPos="120" Width="27" Height="27"/>
+	<!--
+		window interface
+	-->
+	<Image Name="scoll_bg" XPos="741" YPos="352" Width="28" Height="188"/>
+	<Image Name="scoll_down" XPos="177" YPos="121" Width="28" Height="23"/>
+	<Image Name="scoll_btn" XPos="150" YPos="121" Width="20" Height="19"/>
+	<Image Name="scoll_up" XPos="117" YPos="120" Width="28" Height="25"/>
+	<Image Name="select_left" XPos="496" YPos="516" Width="39" Height="41"/>
+	<Image Name="select_right" XPos="543" YPos="516" Width="39" Height="41"/>
+	
+	<Image Name="jineng_frame" XPos="337" YPos="211" Width="48" Height="48"/>
+	<Image Name="jineng_bg_hover" XPos="282" YPos="212" Width="46" Height="46"/>
+	<Image Name="jineng_bg_normall" XPos="229" YPos="212" Width="46" Height="46"/>
+	
+	<Image Name="wupin_image" XPos="545" YPos="96" Width="39" Height="39"/>
+	<Image Name="wupin_image_frame_hover" XPos="486" YPos="90" Width="52" Height="52"/>
+	<Image Name="wupin_image_frame_normal" XPos="429" YPos="90" Width="52" Height="52"/>
+	
+	<Image Name="dialog_content" XPos="781" YPos="4" Width="238" Height="264"/>
+	
+	<Image Name="btn_bye_down" XPos="316" YPos="93" Width="104" Height="26"/>
+	<Image Name="btn_bye_normal" XPos="316" YPos="123" Width="104" Height="26"/>
+
+	
+	<Image Name="wupin_content" XPos="779" YPos="279" Width="240" Height="261"/>
+	<Image Name="left_normal" XPos="316" YPos="165" Width="36" Height="35"/>
+	<Image Name="left_down" XPos="356" YPos="165" Width="36" Height="35"/>
+	<Image Name="right_normal" XPos="397" YPos="165" Width="36" Height="35"/>
+	<Image Name="right_down" XPos="438" YPos="165" Width="36" Height="35"/>
+	<Image Name="next" XPos="566" YPos="170" Width="52" Height="21"/>
+	<Image Name="page" XPos="528" YPos="170" Width="37" Height="21"/>
+	<Image Name="previous" XPos="474" YPos="170" Width="53" Height="21"/>
+	<Image Name="money_frame" XPos="429" YPos="145" Width="181" Height="18"/>
+	<Image Name="copper" XPos="150" YPos="152" Width="14" Height="13"/>
+	<Image Name="silver" XPos="199" YPos="152" Width="14" Height="13"/>
+	<Image Name="gold" XPos="176" YPos="152" Width="14" Height="13"/>
+	<Image Name="wupin_simple_info" XPos="478" YPos="3" Width="128" Height="60"/>
+
+	<Image Name="bag_bg" XPos="638" YPos="201" Width="132" Height="144"/>
+	<Image Name="wupin_more_info" XPos="5" YPos="204" Width="197" Height="79"/>
+	
+	<Image Name="head" XPos="7" YPos="428" Width="38" Height="38"/>
+	<Image Name="neck" XPos="55" YPos="428" Width="38" Height="38"/>
+	<Image Name="shoulder" XPos="102" YPos="428" Width="38" Height="38"/>
+	<Image Name="chest" XPos="150" YPos="428" Width="39" Height="38"/>
+	<Image Name="shirt" XPos="251" YPos="428" Width="38" Height="38"/>
+	<Image Name="wristbands" XPos="300" YPos="428" Width="38" Height="38"/>
+	<Image Name="badges" XPos="349" YPos="472" Width="37" Height="38"/>
+	<Image Name="ShengWu" XPos="301" YPos="472" Width="38" Height="38"/>
+	<Image Name="adornArticle" XPos="251" YPos="473" Width="39" Height="38"/>
+	<Image Name="ring" XPos="203" YPos="473" Width="39" Height="38"/>
+	<Image Name="shoes" XPos="150" YPos="473" Width="39" Height="38"/>
+	<Image Name="belt" XPos="54" YPos="473" Width="39" Height="37"/>
+	<Image Name="armguard" XPos="7" YPos="472" Width="38" Height="38"/>
+	<Image Name="WuQi" XPos="349" YPos="428" Width="38" Height="38"/>
+	<Image Name="legs" XPos="100" YPos="472" Width="40" Height="39"/>
+	<Image Name="backside" XPos="204" YPos="428" Width="38" Height="38"/>
+	<Image Name="juese_bg_right" XPos="468" YPos="425" Width="20" Height="91"/>
+	<Image Name="btn_turn_right_hover" XPos="429" YPos="433" Width="28" Height="28"/>
+	<Image Name="btn_turn_right_normal" XPos="428" YPos="471" Width="28" Height="28"/>
+	<Image Name="btn_turn_left_hover" XPos="394" YPos="433" Width="28" Height="28"/>
+	<Image Name="btn_turn_left_normal" XPos="394" YPos="471" Width="28" Height="28"/>
+	<Image Name="btn_text_back" XPos="683" YPos="425" Width="52" Height="33"/>
+	<Image Name="btn_text_delete" XPos="588" YPos="425" Width="88" Height="34"/>
+	<Image Name="btn_text_create" XPos="497" YPos="463" Width="106" Height="35"/>
+	<Image Name="btn_text_enter" XPos="496" YPos="425" Width="88" Height="34"/>
+	<Image Name="huangkuang" XPos="748" YPos="931" Width="262" Height="68"/>
+	<Image Name="toumingkuai" XPos="592" YPos="519" Width="36" Height="34"/>
+	<Image Name="lanqi" XPos="339" YPos="574" Width="66" Height="280"/>
+	<Image Name="hongqi" XPos="421" YPos="575" Width="65" Height="285"/>
+	
+	<Image Name="juese_create_type" XPos="500" YPos="614" Width="209" Height="37"/>
+	<Image Name="nv" XPos="391" YPos="524" Width="40" Height="40"/>
+	<Image Name="nan" XPos="337" YPos="524" Width="40" Height="40"/>
+
+
+	<Image Name="touming_down_right" XPos="708" YPos="530" Width="25" Height="23"/>
+	<Image Name="touming_down_middle" XPos="677" YPos="530" Width="23" Height="23"/>
+	<Image Name="touming_down_left" XPos="644" YPos="530" Width="25" Height="23"/>
+	<Image Name="touming_middle_right" XPos="708" YPos="502" Width="25" Height="22"/>
+	<Image Name="touming_middle_middle" XPos="677" YPos="502" Width="23" Height="22"/>
+	<Image Name="touming_middle_left" XPos="644" YPos="502" Width="25" Height="22"/>
+	<Image Name="touming_top_right" XPos="708" YPos="472" Width="25" Height="26"/>
+	<Image Name="touming_top_middle" XPos="677" YPos="473" Width="23" Height="25"/>
+	<Image Name="touming_top_left" XPos="644" YPos="472" Width="25" Height="26"/>
+
+	<Image Name="brush_white" XPos="763" YPos="567" Width="7" Height="27"/>
+	<Image Name="empty" XPos="0" YPos="0" Width="0" Height="0"/>
+</Imageset>

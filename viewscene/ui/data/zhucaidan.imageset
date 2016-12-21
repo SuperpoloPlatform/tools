@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset xmlns:mx="http://www.adobe.com/2006/mxml" Name="zhucaidan" Imagefile="zhucaidan.png" >
+
+	<Image Name="zhu_footright" XPos="98" YPos="41" Width="35" Height="17"/>
+	<Image Name="zhu_footmiddle" XPos="49" YPos="41" Width="37" Height="17"/>
+	<Image Name="zhu_footleft" XPos="6" YPos="41" Width="32" Height="17"/>
+	
+	<Image Name="zhu_middleright" XPos="98" YPos="20" Width="35" Height="12"/>
+	<Image Name="zhu_middlemiddle" XPos="49" YPos="20" Width="37" Height="12"/>
+	<Image Name="zhu_middleleft" XPos="7" YPos="20" Width="33" Height="12"/>
+	
+	<Image Name="zhu_titleright" XPos="98" YPos="305" Width="35" Height="20"/>
+	<Image Name="zhu_titlemiddle" XPos="48" YPos="305" Width="40" Height="20"/>
+	<Image Name="zhu_titleleft" XPos="6" YPos="305" Width="32" Height="20"/>
+	
+	<Image Name="daohang_tishi" XPos="142" YPos="3" Width="86" Height="47"/>
+	
+	<Image Name="btn_shijiaokongzhi_normal" XPos="54" YPos="62" Width="40" Height="51"/>
+	<Image Name="btn_shijiaokongzhi_hover" XPos="7" YPos="62" Width="40" Height="51"/>
+</Imageset>

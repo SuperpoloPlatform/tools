@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="root" >
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0.00371181,0},{-0.00833341,0},{1.00371,0},{0.991667,0}}" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Window Type="General/Button" Name="showheight" >
+            <Property Name="text_theme" Value="Height:2 Width:2 G:false" />
+            <Property Name="font" Value="You12" />
+            <Property Name="HoverImage" Value="set:ice image:ButtonNormal" />
+            <Property Name="NormalImage" Value="set:ice image:ButtonNormal" />
+            <Property Name="PushedImage" Value="set:ice image:ButtonNormal" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.6875,0},{0.0124999,0},{0.99375,0},{0.100149,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="interface/StaticImage" Name="functionRoot" >
+        <Property Name="FrameEnabled" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedMinSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{-0.000694927,0},{0.003861,0},{0.999305,0},{1.00386,0}}" />
+        <Property Name="BackgroundEnabled" Value="True" />
+        <Window Type="interface/StaticText" Name="function/Prompt" >
+            <Property Name="Font" Value="FangSongTi" />
+            <Property Name="Text" Value="请选择功能：" />
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0434341,0},{0.123047,0},{0.177875,0},{0.205805,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="interface/Button" Name="function/GenerateBat" >
+            <Property Name="HoverImage" Value="set:interface image:btn_hover" />
+            <Property Name="text_theme" Value="生成3ds2world批处理" />
+            <Property Name="ButtonWidth" Value="142" />
+            <Property Name="NormalImage" Value="set:interface image:btn_normal" />
+            <Property Name="PushedImage" Value="set:interface image:btn_down" />
+            <Property Name="ButtonHeight" Value="35" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0983334,0},{0.22677,0},{0.235623,0},{0.309528,0}}" />
+            <Property Name="ButtonImageWidth" Value="55" />
+            <Property Name="ButtonImageHeight" Value="34" />
+        </Window>
+        <Window Type="interface/Button" Name="function/MergeWorlds" >
+            <Property Name="HoverImage" Value="set:interface image:btn_hover" />
+            <Property Name="text_theme" Value="合并world文件" />
+            <Property Name="ButtonWidth" Value="142" />
+            <Property Name="NormalImage" Value="set:interface image:btn_normal" />
+            <Property Name="PushedImage" Value="set:interface image:btn_down" />
+            <Property Name="ButtonHeight" Value="35" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0983334,0},{0.363191,0},{0.235623,0},{0.434367,0}}" />
+            <Property Name="ButtonImageWidth" Value="55" />
+            <Property Name="ButtonImageHeight" Value="34" />
+        </Window>
+        <Window Type="interface/Button" Name="function/HandleTransparent" >
+            <Property Name="HoverImage" Value="set:interface image:btn_hover" />
+            <Property Name="text_theme" Value="处理透明" />
+            <Property Name="ButtonWidth" Value="142" />
+            <Property Name="NormalImage" Value="set:interface image:btn_normal" />
+            <Property Name="PushedImage" Value="set:interface image:btn_down" />
+            <Property Name="ButtonHeight" Value="35" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0983334,0},{0.486744,0},{0.235623,0},{0.557919,0}}" />
+            <Property Name="ButtonImageWidth" Value="55" />
+            <Property Name="ButtonImageHeight" Value="34" />
+        </Window>
+        <Window Type="interface/Button" Name="function/HandleDoubleFace" >
+            <Property Name="HoverImage" Value="set:interface image:btn_hover" />
+            <Property Name="text_theme" Value="处理双面" />
+            <Property Name="ButtonWidth" Value="142" />
+            <Property Name="NormalImage" Value="set:interface image:btn_normal" />
+            <Property Name="PushedImage" Value="set:interface image:btn_down" />
+            <Property Name="ButtonHeight" Value="35" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0983334,0},{0.620591,0},{0.235623,0},{0.691767,0}}" />
+            <Property Name="ButtonImageWidth" Value="55" />
+            <Property Name="ButtonImageHeight" Value="34" />
+        </Window>
+        <Window Type="interface/Button" Name="function/HandleCollision" >
+            <Property Name="HoverImage" Value="set:interface image:btn_hover" />
+            <Property Name="text_theme" Value="处理碰撞" />
+            <Property Name="ButtonWidth" Value="142" />
+            <Property Name="NormalImage" Value="set:interface image:btn_normal" />
+            <Property Name="PushedImage" Value="set:interface image:btn_down" />
+            <Property Name="ButtonHeight" Value="35" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0983334,0},{0.766023,0},{0.235623,0},{0.837199,0}}" />
+            <Property Name="ButtonImageWidth" Value="55" />
+            <Property Name="ButtonImageHeight" Value="34" />
+        </Window>
+    </Window>
+</GUILayout>

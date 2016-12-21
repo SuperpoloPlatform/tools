@@ -1,0 +1,12 @@
+<application type="school">
+	<label id="luo">
+		<uiPosition>[2.593852996826172,3.8818156719207764,-24.562532424926758]</uiPosition>
+		<playerPosition>[0.028955459594726562,1.2957384586334229,-17.324188232421875]</playerPosition>
+		<playerRotation>[0,1.5128751982571178,0]</playerRotation>
+	</label>
+	<label id="cccc">
+		<uiPosition>[-11.522421836853027,6.054324150085449,-7.775381088256836]</uiPosition>
+		<playerPosition>[-6.003637313842773,1.2957384586334229,-9.164886474609375]</playerPosition>
+		<playerRotation>[0,3.2552742466915765,0]</playerRotation>
+	</label>
+</application>

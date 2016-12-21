@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset xmlns:mx="http://www.adobe.com/2006/mxml" Name="introschool" Imagefile="introschool.png" >
+	<Image Name="btn_close" XPos="243" YPos="18" Width="24" Height="22"/>
+</Imageset>

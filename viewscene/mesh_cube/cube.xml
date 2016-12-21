@@ -1,0 +1,38 @@
+<library>
+  	<textures>
+		<texture name="t019.jpg">
+			<file>/tools/mesh_cube/t_19.jpg</file>
+		</texture>
+	</textures>
+	<materials>
+		<material name="t019" >
+			<texture>t019.jpg</texture>
+		</material>
+	</materials>
+	<meshfact name="cube">
+    <plugin>crystalspace.mesh.loader.factory.genmesh</plugin>
+    <params>
+	  <material>t019</material>
+      <v x="-0.5" y="0" z="0.5" u="0.0005" v="0.9995" nx="0.7071" ny="0" nz="-0.7071" />
+      <v x="0.5" y="0" z="0.5" u="0.0005" v="0.031" nx="0.7071" ny="0.0002" nz="-0.7071" />
+      <v x="-0.5" y="2" z="0.5" u="0.9994" v="0.031" nx="0.7071" ny="0.0001" nz="-0.7071" />
+      <v x="0.5" y="2" z="0.5" u="0.0005" v="0.9995" nx="0.7071" ny="0" nz="-0.7071" />
+      <v x="-0.5" y="2" z="-0.5" u="0.0005" v="0.031" nx="0.7071" ny="0.0002" nz="-0.7071" />
+      <v x="-0.5" y="0" z="-0.5" u="0.9994" v="0.031" nx="0.7071" ny="0.0001" nz="-0.7071" />
+	  <v x="0.5" y="2" z="-0.5" u="0.0005" v="0.031" nx="0.7071" ny="0.0002" nz="-0.7071" />
+      <v x="0.5" y="0" z="-0.5" u="0.9994" v="0.031" nx="0.7071" ny="0.0001" nz="-0.7071" />
+	  <t v1="0" v2="1" v3="2" />
+	  <t v1="2" v2="1" v3="3" />
+	  <t v1="2" v2="3" v3="4" />
+	  <t v1="6" v2="4" v3="3" />
+	  <t v1="0" v2="2" v3="4" />
+	  <t v1="0" v2="4" v3="5" />
+	  <t v1="6" v2="3" v3="1" />
+	  <t v1="7" v2="6" v3="1" />
+	  <t v1="4" v2="6" v3="7" />
+	  <t v1="7" v2="5" v3="4" />
+	  <t v1="5" v2="1" v3="0" />
+	  <t v1="1" v2="5" v3="7" />
+    </params>
+  </meshfact>
+</library>

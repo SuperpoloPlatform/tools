@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="interface/StaticImage" Name="collisionRoot" >
+        <Property Name="Image" Value="set:ice image:HeaderBarBackdropNormal" />
+        <Property Name="FrameEnabled" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedMinSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property Name="BackgroundEnabled" Value="True" />
+        <Window Type="interface/StaticText" Name="collision/InputPath" >
+            <Property Name="Font" Value="HeiTi" />
+            <Property Name="Text" Value="请输入world.xml目录路径：" />
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.174776,0},{0.299366,0},{0.33215,0},{0.362819,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="interface/Editbox" Name="collision/InputPathEdit" >
+            <Property Name="Text" Value="C:\world\jianzhu_bud_01\" />
+            <Property Name="image" Value="set:interface image:input" />
+            <Property Name="MaxTextLength" Value="1073741823" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.350591,0},{0.298986,0},{0.6229,0},{0.3663,0}}" />
+        </Window>
+        <Window Type="interface/Button" Name="collision/Execute" >
+            <Property Name="HoverImage" Value="set:interface image:btn_hover" />
+            <Property Name="text_theme" Value="处理碰撞" />
+            <Property Name="ButtonWidth" Value="142" />
+            <Property Name="NormalImage" Value="set:interface image:btn_normal" />
+            <Property Name="PushedImage" Value="set:interface image:btn_down" />
+            <Property Name="ButtonHeight" Value="35" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.293608,0},{0.609009,0},{0.430897,0},{0.691768,0}}" />
+            <Property Name="ButtonImageWidth" Value="55" />
+            <Property Name="ButtonImageHeight" Value="34" />
+        </Window>
+        <Window Type="interface/Button" Name="collision/Return" >
+            <Property Name="HoverImage" Value="set:interface image:btn_hover" />
+            <Property Name="text_theme" Value="返回主菜单" />
+            <Property Name="ButtonWidth" Value="142" />
+            <Property Name="NormalImage" Value="set:interface image:btn_normal" />
+            <Property Name="PushedImage" Value="set:interface image:btn_down" />
+            <Property Name="ButtonHeight" Value="35" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.693191,0},{0.863834,0},{0.830481,0},{0.93501,0}}" />
+            <Property Name="ButtonImageWidth" Value="55" />
+            <Property Name="ButtonImageHeight" Value="34" />
+        </Window>
+    </Window>
+</GUILayout>

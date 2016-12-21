@@ -1,0 +1,38 @@
+<library>
+	<!-- 玩家角色的模型工厂 -->
+	<meshfact name="woman">
+		<plugin>crystalspace.mesh.loader.factory.sprite.cal3d</plugin>
+		<params>
+			<options rotate_x_axis="yes" flip_textures="no" />
+			<animation file="/tools/mesh_woman/woman/textures/stand.caf" name="stand" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+			<animation file="/tools/mesh_woman/woman/textures/run.caf" name="run" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+			<animation file="/tools/mesh_woman/woman/textures/walk.caf" name="walk" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+			<animation file="/tools/mesh_woman/woman/textures/woman.caf" name="woman" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+			<scale value="0.01" />
+			<skeleton file="/tools/mesh_woman/woman/textures/woman.csf" />
+
+			<mesh file="/tools/mesh_woman/woman/textures/toufa1.cmf" name="toufa1" material="toufa5" />
+			<mesh file="/tools/mesh_woman/woman/textures/yifu4.cmf" name="yifu4" material="yifu4" />
+			<mesh file="/tools/mesh_woman/woman/textures/xie.cmf" name="xie" material="xie2" />
+
+			<!--<socket name="socketjian" tri="90" mesh="2" submesh="0" />-->
+
+			
+			<hardtransform
+				rot_axis_x="1"
+				rot_axis_y="0"
+				rot_axis_z="0"
+				rot_angle="90" />
+			<hardtransform
+				rot_axis_x="0"
+				rot_axis_y="1"
+				rot_axis_z="0"
+				rot_angle="180" />
+				
+		</params>
+	</meshfact>
+</library>

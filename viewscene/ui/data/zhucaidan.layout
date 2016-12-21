@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="root" >
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{-0.00097561,0},{0,0},{0.999024,0},{1,0}}" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Window Type="General/DefaultWindowBackground" Name="zhucaidan/shijiaokongzhi" >
+            <Property Name="Visible" Value="False" />
+            <Property Name="text_colour" Value="FFFFFFFF" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.353516,0},{0.805974,0},{0.63672,0},{0.987973,0}}" />
+            <Window Type="General/Button" Name="shijiaokongzhi/close_button" >
+                <Property Name="HoverImage" Value="set:introschool image:btn_close" />
+                <Property Name="NormalImage" Value="set:introschool image:btn_close" />
+                <Property Name="PushedImage" Value="set:introschool image:btn_close" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.866569,0},{0.095973,0},{0.968122,0},{0.240171,0}}" />
+            </Window>
+            <Window Type="General/StaticImage" Name="shijiaokongzhi/btn_shijiao_bg1" >
+                <Property Name="image" Value="set:shijiaokongzhi image:btn_shijiao_bg1" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.190709,0},{0.402592,0},{0.299158,0},{0.62123,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="General/StaticImage" Name="shijiaokongzhi/btn_shijiao_bg2" >
+                <Property Name="image" Value="set:shijiaokongzhi image:btn_shijiao_bg2" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.68381,0},{0.38398,0},{0.785364,0},{0.596954,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="General/Button" Name="shijiaokongzhi/btn_shijiao_up" >
+                <Property Name="HoverImage" Value="set:shijiaokongzhi image:btn_shijiao_up" />
+                <Property Name="NormalImage" Value="set:shijiaokongzhi image:btn_shijiao_up" />
+                <Property Name="PushedImage" Value="set:shijiaokongzhi image:btn_shijiao_up" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.18726,0},{0.101636,0},{0.306055,0},{0.374477,0}}" />
+            </Window>
+            <Window Type="General/Button" Name="shijiaokongzhi/btn_shijiao_left" >
+                <Property Name="HoverImage" Value="set:shijiaokongzhi image:btn_shijiao_left" />
+                <Property Name="NormalImage" Value="set:shijiaokongzhi image:btn_shijiao_left" />
+                <Property Name="PushedImage" Value="set:shijiaokongzhi image:btn_shijiao_left" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0596747,0},{0.38398,0},{0.195711,0},{0.651975,0}}" />
+            </Window>
+            <Window Type="General/Button" Name="shijiaokongzhi/btn_shijiao_down" >
+                <Property Name="HoverImage" Value="set:shijiaokongzhi image:btn_shijiao_down" />
+                <Property Name="NormalImage" Value="set:shijiaokongzhi image:btn_shijiao_down" />
+                <Property Name="PushedImage" Value="set:shijiaokongzhi image:btn_shijiao_down" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.190709,0},{0.625081,0},{0.306055,0},{0.87688,0}}" />
+            </Window>
+            <Window Type="General/Button" Name="shijiaokongzhi/btn_shijiao_right" >
+                <Property Name="HoverImage" Value="set:shijiaokongzhi image:btn_shijiao_right" />
+                <Property Name="NormalImage" Value="set:shijiaokongzhi image:btn_shijiao_right" />
+                <Property Name="PushedImage" Value="set:shijiaokongzhi image:btn_shijiao_right" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.290708,0},{0.381551,0},{0.426744,0},{0.664924,0}}" />
+            </Window>
+            <Window Type="General/Button" Name="shijiaokongzhi/btn_shijiao_forward" >
+                <Property Name="HoverImage" Value="set:shijiaokongzhi image:btn_shijiao_forward" />
+                <Property Name="NormalImage" Value="set:shijiaokongzhi image:btn_shijiao_forward" />
+                <Property Name="PushedImage" Value="set:shijiaokongzhi image:btn_shijiao_forward" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.46657,0},{0.146942,0},{0.53364,0},{0.393078,0}}" />
+            </Window>
+            <Window Type="General/Button" Name="shijiaokongzhi/btn_shijiao_back" >
+                <Property Name="HoverImage" Value="set:shijiaokongzhi image:btn_shijiao_back" />
+                <Property Name="NormalImage" Value="set:shijiaokongzhi image:btn_shijiao_back" />
+                <Property Name="PushedImage" Value="set:shijiaokongzhi image:btn_shijiao_back" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.46657,0},{0.670387,0},{0.533641,0},{0.922186,0}}" />
+            </Window>
+            <Window Type="General/Button" Name="shijiaokongzhi/btn_shijiao_up2" >
+                <Property Name="HoverImage" Value="set:shijiaokongzhi image:btn_shijiao_up" />
+                <Property Name="NormalImage" Value="set:shijiaokongzhi image:btn_shijiao_up" />
+                <Property Name="PushedImage" Value="set:shijiaokongzhi image:btn_shijiao_up" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.676915,0},{0.114574,0},{0.802605,0},{0.363139,0}}" />
+            </Window>
+            <Window Type="General/Button" Name="shijiaokongzhi/btn_shijiao_left2" >
+                <Property Name="HoverImage" Value="set:shijiaokongzhi image:btn_shijiao_left" />
+                <Property Name="NormalImage" Value="set:shijiaokongzhi image:btn_shijiao_left" />
+                <Property Name="PushedImage" Value="set:shijiaokongzhi image:btn_shijiao_left" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.549328,0},{0.373459,0},{0.685364,0},{0.638219,0}}" />
+            </Window>
+            <Window Type="General/Button" Name="shijiaokongzhi/btn_shijiao_down2" >
+                <Property Name="HoverImage" Value="set:shijiaokongzhi image:btn_shijiao_down" />
+                <Property Name="NormalImage" Value="set:shijiaokongzhi image:btn_shijiao_down" />
+                <Property Name="PushedImage" Value="set:shijiaokongzhi image:btn_shijiao_down" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.680363,0},{0.603234,0},{0.795709,0},{0.860696,0}}" />
+            </Window>
+            <Window Type="General/Button" Name="shijiaokongzhi/btn_shijiao_right2" >
+                <Property Name="HoverImage" Value="set:shijiaokongzhi image:btn_shijiao_right" />
+                <Property Name="NormalImage" Value="set:shijiaokongzhi image:btn_shijiao_right" />
+                <Property Name="PushedImage" Value="set:shijiaokongzhi image:btn_shijiao_right" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.780363,0},{0.365366,0},{0.923294,0},{0.643882,0}}" />
+            </Window>
+        </Window>
+        <Window Type="General/Button" Name="showheight" >
+            <Property Name="font" Value="You12" />
+            <Property Name="HoverImage" Value="set:ice image:ButtonNormal" />
+            <Property Name="text_theme" Value="2  G:false" />
+            <Property Name="NormalImage" Value="set:ice image:ButtonNormal" />
+            <Property Name="PushedImage" Value="set:ice image:ButtonNormal" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.6675,0},{0.0124999,0},{0.99375,0},{0.100149,0}}" />
+        </Window>
+        <Window Type="General/Editbox" Name="meshobj_name/Editbox" >
+            <Property Name="Text" Value="请输入搜索meshobj的name" />
+            <Property Name="MaxTextLength" Value="26" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.355619,0},{0.0341284,0},{0.54517,0},{0.0734315,0}}" />
+        </Window>
+        <Window Type="General/Button" Name="Editbox_input_ok/button" >
+            <Property Name="HoverImage" Value="set:ice image:ButtonNormal" />
+            <Property Name="text_theme" Value="Ok" />
+            <Property Name="NormalImage" Value="set:ice image:ButtonNormal" />
+            <Property Name="PushedImage" Value="set:ice image:ButtonNormal" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.554114,0},{0.0358494,0},{0.580494,0},{0.070091,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

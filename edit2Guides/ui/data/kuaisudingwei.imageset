@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Imageset xmlns:mx="http://www.adobe.com/2006/mxml" Name="kuaisudingwei" Imagefile="kuaisudingwei.png">
+	<Image Name="kuaisudingwei_bg"  XPos="4" YPos="5" Width="770" Height="453"/>
+	<Image Name="kuaisudingwei_btn"  XPos="781" YPos="5" Width="77" Height="24"/>
+</Imageset>

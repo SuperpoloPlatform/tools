@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+	<textures>
+		<texture name="toufa5.png">
+			<file>/art/models/woman/textures/toufa5.png</file>      
+			<alpha>
+				<binary/>
+			</alpha>
+		</texture>
+
+		<texture name="xie2.png">
+			<file>/art/models/woman/textures/xie2.png</file>      
+			<alpha>
+				<binary/>
+			</alpha>
+		</texture>
+
+		<texture name="yifu1.jpg">
+			<file>/art/models/woman/textures/yifu1.jpg</file>   
+		</texture>
+	</textures>
+
+	<materials>
+		<material name="yifu1">
+			<texture>yifu1.jpg</texture>
+			<shader type="ambient">ambient</shader>
+			<shader type="diffuse">lighting_default_binalpha</shader>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>
+
+		<material name="xie2">
+			<texture>xie2.png</texture>
+			<shader type="ambient">ambient</shader>
+			<shader type="diffuse">lighting_default_binalpha</shader>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>
+
+		<material name="toufa5">
+			<texture>toufa5.png</texture>
+			<shader type="ambient">ambient</shader>
+			<shader type="diffuse">lighting_default_binalpha</shader>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>
+	</materials>
+	<library>art/models/woman/factories/genWoman.xml</library>
+</library>

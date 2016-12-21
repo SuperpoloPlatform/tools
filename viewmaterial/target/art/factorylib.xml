@@ -1,0 +1,7 @@
+<library>
+  <!--下面是用的模型*****************************-->
+  <library>/art/factories/Box01.xml</library>
+  <library>/art/factories/.xml</library>
+  <library>/art/factories/Sphere01.xml</library>
+  <library>/art/factories/Teapot01.xml</library>
+</library>

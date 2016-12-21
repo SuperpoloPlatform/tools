@@ -1,0 +1,15 @@
+<library>
+  <textures>
+     <!--这是引入的贴图信息**********************-->
+	   <texture name="check.jpg">
+		  <file>/art/textures/check.jpg</file>
+	   </texture>	  
+  </textures>
+  <materials>
+     <!--下是模型默认的材质***********************************-->
+        <material name="MaterialsInfo">
+            <texture>check.jpg</texture>
+            <shader type="diffuse">parallaxAtt</shader>
+        </material>         
+  </materials>
+</library>

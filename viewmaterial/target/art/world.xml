@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?><world>
+  <plugins>
+    <plugin name="null">crystalspace.mesh.loader.null</plugin>
+    <plugin name="genmesh">crystalspace.mesh.loader.genmesh</plugin>
+    <plugin name="genmeshfact">crystalspace.mesh.loader.factory.genmesh</plugin>
+    <plugin name="cal3d">crystalspace.mesh.loader.sprite.cal3d</plugin>
+    <plugin name="cal3dfact">crystalspace.mesh.loader.factory.sprite.cal3d</plugin>
+  </plugins>
+  <library>/art/mesh_camera/mesh_camera.xml</library>
+  <library>/art/factorylib.xml</library>
+  <library>/art/materials.xml</library>
+  <start name="Camera">
+    <sector>Scene</sector>
+    <position x="8.6592" y="5.1716" z="-4.595"/>
+    <up x="-0.3307" y="0.8953" z="0.2984"/>
+    <forward x="-0.6549" y="-0.4452" z="0.6107"/>
+  </start>
+  <sector name="Scene">
+    <ambient blue="0.8" green="0.8" red="0.8"/>
+    <cullerp plugin="crystalspace.culling.frustvis"/>
+    <light name="sdfs22">
+		<center x="-3.39041" y="2.10846" z="3.22347"/>
+		<color blue="0.286275" green="0.145098" red="0.984314"/>
+		<radius>6.01045</radius>
+		<dynamic>false</dynamic>
+		<influenceradius>4.99202</influenceradius>
+		<specular blue="0.286275" green="0.145098" red="0.984314"/>
+		<attenuation c="0" l="1" q="0">linear</attenuation>
+		<type>pointlight</type>
+	</light>
+	<light name="sdfsdf333">
+		<center x="5.10696" y="2.10846" z="3.7148"/>
+		<color blue="0.580392" green="0.847059" red="0.972549"/>
+		<radius>6.01045</radius>
+		<dynamic>false</dynamic>
+		<influenceradius>4.99202</influenceradius>
+		<specular blue="0.580392" green="0.847059" red="0.972549"/>
+		<attenuation c="0" l="1" q="0">linear</attenuation>
+		<type>pointlight</type>
+	</light>
+	<light name="sdfsdf555">
+		<center x="-7.276" y="2.10846" z="-0.055831"/>
+		<color blue="0.980392" green="0.760784" red="0.580392"/>
+		<radius>1.62282</radius>
+		<dynamic>false</dynamic>
+		<influenceradius>1.89697</influenceradius>
+		<specular blue="0.980392" green="0.760784" red="0.580392"/>
+		<attenuation c="0" l="1" q="0">linear</attenuation>
+		<type>pointlight</type>
+	</light>
+	<light name="sdfsdf2222">
+		<center x="0.0841334" y="2.10846" z="-2.97771"/>
+		<color blue="0.580392" green="0.847059" red="0.972549"/>
+		<radius>6.01045</radius>
+		<dynamic>false</dynamic>
+		<influenceradius>4.99202</influenceradius>
+		<specular blue="0.580392" green="0.847059" red="0.972549"/>
+		<attenuation c="0" l="1" q="0">linear</attenuation>
+		<type>pointlight</type>
+	</light>
+	<meshobj name="mesh_camera">
+		<plugin>crystalspace.mesh.loader.genmesh</plugin>
+		<params>
+		<factory>genCube</factory>
+		</params>
+		<move>
+		<v x="0" y="-0.3" z="0"/>
+		</move>
+    </meshobj>
+    <meshobj name="mesh_box">
+      <plugin>crystalspace.mesh.loader.genmesh</plugin>
+      <params>
+        <factory>Box01</factory>
+      </params>
+      <move>
+        <v x="0" y="0" z="0"/>
+        <matrix>
+          <scale x="1" y="1" z="1"/>
+          <rotx>0</rotx>
+          <roty>0</roty>
+          <rotz>0</rotz>
+        </matrix>
+      </move>
+    </meshobj>
+    <meshobj name="mesh_sphere">
+      <plugin>crystalspace.mesh.loader.genmesh</plugin>
+      <params>
+        <factory>Sphere01</factory>
+      </params>
+      <move>
+        <v x="0" y="0" z="0"/>
+        <matrix>
+          <scale x="1" y="1" z="1"/>
+          <rotx>0</rotx>
+          <roty>0</roty>
+          <rotz>0</rotz>
+        </matrix>
+      </move>
+    </meshobj>
+	<meshobj name="mesh_teapot">
+      <plugin>crystalspace.mesh.loader.genmesh</plugin>
+      <params>
+        <factory>Teapot01</factory>
+      </params>
+      <move>
+        <v x="0" y="0" z="0"/>
+        <matrix>
+          <scale x="1" y="1" z="1"/>
+          <rotx>0</rotx>
+          <roty>0</roty>
+          <rotz>0</rotz>
+        </matrix>
+      </move>
+    </meshobj>    
+ </sector>
+</world>

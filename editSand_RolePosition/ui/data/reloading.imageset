@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset xmlns:mx="http://www.adobe.com/2006/mxml" Name="reloading" Imagefile="reloading.png" >
+	<Image Name="man_hair1" XPos="24" YPos="204" Width="83" Height="83"/>
+	<Image Name="men_dress1" XPos="211" YPos="204" Width="83" Height="83"/>
+	<Image Name="men_dress2" XPos="318" YPos="204" Width="83" Height="83"/>
+	<Image Name="woman_hair2" XPos="118" YPos="113" Width="83" Height="83"/>
+	<Image Name="woman_hair1" XPos="24" YPos="113" Width="83" Height="83"/>
+	<Image Name="woman_dress2" XPos="312" YPos="113" Width="83" Height="83"/>
+	<Image Name="woman_dress1" XPos="215" YPos="113" Width="83" Height="83"/>
+	<Image Name="kuang_wuxiao" XPos="225" YPos="10" Width="83" Height="83"/>
+	<Image Name="kuang_huidu" XPos="121" YPos="10" Width="85" Height="85"/>
+	<Image Name="btn_radio_n" XPos="353" YPos="49" Width="14" Height="14"/>
+	<Image Name="btn_radio" XPos="353" YPos="29" Width="14" Height="14"/>
+	<Image Name="btn_bg" XPos="24" YPos="303" Width="233" Height="106"/>
+	<Image Name="confirm__hover" XPos="188" YPos="435" Width="137" Height="42"/>
+	<Image Name="confirm__normal" XPos="18" YPos="435" Width="137" Height="42"/>
+	<Image Name="kuang_gaoliang" XPos="24" YPos="10" Width="85" Height="85"/>
+	<Image Name="men_hair2" XPos="120" YPos="204" Width="83" Height="83"/>
+	<Image Name="Clockwise_btn" XPos="276" YPos="310" Width="113" Height="35"/>
+	<Image Name="ant_clockwise_btn" XPos="276" YPos="374" Width="113" Height="35"/>
+	<Image Name="Clockwise_btn_hover" XPos="395" YPos="310" Width="113" Height="35"/>
+	<Image Name="ant_clockwise_btn_hover" XPos="395" YPos="374" Width="113" Height="35"/>
+</Imageset>

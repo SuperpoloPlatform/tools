@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GUIScheme Name="interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="GUIScheme.xsd">
+	<Imageset Name="interface" Filename="interface.imageset"/>
+	<Imageset Filename="ice.imageset" Name="ice"/>
+	<LookNFeel Filename="interface.looknfeel"/>
+	<WindowRendererSet Filename="CEGUIFalagardWRBase"/>
+	<FalagardMapping WindowType="interface/Button" TargetType="CEGUI/PushButton" Renderer="Falagard/Button" LookNFeel="interface/Button"/>
+	<FalagardMapping WindowType="interface/StaticImage" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="interface/StaticImage"/>
+	<FalagardMapping WindowType="interface/Editbox" TargetType="CEGUI/Editbox" Renderer="Falagard/Editbox" LookNFeel="interface/Editbox"/>
+	<FalagardMapping WindowType="interface/Thumb" TargetType="CEGUI/Thumb" Renderer="Falagard/Button" LookNFeel="interface/Thumb"/>
+	<FalagardMapping WindowType="interface/VerticalScrollbar" TargetType="CEGUI/Scrollbar" Renderer="Falagard/Scrollbar" LookNFeel="interface/VerticalScrollbar"/>
+	<FalagardMapping WindowType="interface/HorizontalScrollbar" TargetType="CEGUI/Scrollbar" Renderer="Falagard/Scrollbar" LookNFeel="interface/HorizontalScrollbar"/>
+	<FalagardMapping WindowType="interface/StaticText" TargetType="DefaultWindow" Renderer="Falagard/StaticText" LookNFeel="interface/StaticText"/>
+
+</GUIScheme>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<world>
+    <plugins>
+        <plugin name="genmesh">crystalspace.mesh.loader.genmesh</plugin>
+        <plugin name="genmeshfact">crystalspace.mesh.loader.factory.genmesh</plugin>
+    </plugins>
+    <shaders />
+    <textures>
+    </textures>
+    <materials>
+    </materials>
+    <sounds />
+    <settings>
+        <clearscreen>yes</clearscreen>
+        <clearzbuf>yes</clearzbuf>
+    </settings>
+    <triggers />
+</world>

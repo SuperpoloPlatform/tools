@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Imageset xmlns:mx="http://www.adobe.com/2006/mxml"  Name="shijiaokongzhi" Imagefile="shijiaokongzhi.png">
+	<Image Name="btn_shijiao_up"  XPos="7" YPos="7" Width="36" Height="35"/>
+	<Image Name="btn_shijiao_bg1"  XPos="114" YPos="16" Width="28" Height="28"/>
+	<Image Name="btn_shijiao_bg2"  XPos="114" YPos="51" Width="28" Height="28"/>
+	<Image Name="btn_shijiao_left"  XPos="7" YPos="48" Width="37" Height="35"/>
+	<Image Name="btn_shijiao_right"  XPos="61" YPos="53" Width="37" Height="36"/>
+	<Image Name="btn_shijiao_down"  XPos="61" YPos="10" Width="36" Height="36"/>
+	<Image Name="btn_shijiao_back"  XPos="198" YPos="24" Width="25" Height="43"/>
+	<Image Name="btn_shijiao_forward"  XPos="166" YPos="24" Width="25" Height="43"/>
+</Imageset>

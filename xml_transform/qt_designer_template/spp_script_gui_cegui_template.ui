@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>894</width>
+    <height>563</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabWidget_2">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_18">
+       <attribute name="title">
+        <string>CEGUI/Checkbox</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QCheckBox" name="Checkbox">
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+          <property name="Selected" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="WindowType" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <widget class="QTabWidget" name="tabWidget_22">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_37">
+       <attribute name="title">
+        <string>CEGUI/FrameWindow</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_21">
+        <item>
+         <widget class="QTabWidget" name="FrameWindow">
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <property name="tabsClosable">
+           <bool>true</bool>
+          </property>
+          <property name="SizingEnabled" stdset="0">
+           <bool>true</bool>
+          </property>
+          <property name="FrameEnabled" stdset="0">
+           <bool>true</bool>
+          </property>
+          <property name="TitlebarEnabled" stdset="0">
+           <bool>true</bool>
+          </property>
+          <property name="CloseButtonEnabled" stdset="0">
+           <bool>true</bool>
+          </property>
+          <property name="RollUpEnabled" stdset="0">
+           <bool>true</bool>
+          </property>
+          <property name="RollUpState" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="DragMovingEnabled" stdset="0">
+           <bool>true</bool>
+          </property>
+          <property name="SizingBorderThickness" stdset="0">
+           <double>8.000000000000000</double>
+          </property>
+          <property name="NSSizingCursorImage" stdset="0">
+           <string>set: image:</string>
+          </property>
+          <property name="EWSizingCursorImage" stdset="0">
+           <string>set: image:</string>
+          </property>
+          <property name="NWSESizingCursorImage" stdset="0">
+           <string>set: image:</string>
+          </property>
+          <property name="NESWSizingCursorImage" stdset="0">
+           <string>set: image:</string>
+          </property>
+          <property name="WindowType" stdset="0">
+           <string/>
+          </property>
+          <widget class="QWidget" name="tab_4">
+           <attribute name="title">
+            <string>titlebar</string>
+           </attribute>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QTabWidget" name="tabWidget_3">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_19">
+       <attribute name="title">
+        <string>CEGUI/Combobox</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QComboBox" name="ComboBox">
+          <property name="ReadOnly" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="ValidationString" stdset="0">
+           <string>.*</string>
+          </property>
+          <property name="CaratIndex" stdset="0">
+           <UInt>0</UInt>
+          </property>
+          <property name="EditSelectionStart" stdset="0">
+           <UInt>0</UInt>
+          </property>
+          <property name="EditSelectionLength" stdset="0">
+           <UInt>0</UInt>
+          </property>
+          <property name="MaxEditTextLength" stdset="0">
+           <UInt>1073741824</UInt>
+          </property>
+          <property name="SortList" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="ForceVertScrollbar" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="ForceHorzScrollbar" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="SingleClickMode" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="WindowType" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QTabWidget" name="tabWidget_10">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_26">
+       <attribute name="title">
+        <string>CEGUI/PushButton</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_7">
+        <item>
+         <widget class="QPushButton" name="pushButton">
+          <property name="text">
+           <string>PushButton</string>
+          </property>
+          <property name="WindowType" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QTabWidget" name="tabWidget_14">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_30">
+       <attribute name="title">
+        <string>CEGUI/Spinner</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_12">
+        <item>
+         <widget class="QSpinBox" name="spinner">
+          <property name="CurrentValue" stdset="0">
+           <double>0.000000000000000</double>
+          </property>
+          <property name="StepSize" stdset="0">
+           <double>1.000000000000000</double>
+          </property>
+          <property name="MinimumValue" stdset="0">
+           <double>-32768.000000000000000</double>
+          </property>
+          <property name="MaximumValue" stdset="0">
+           <double>32767.000000000000000</double>
+          </property>
+          <property name="TextInputMode" stdset="0">
+           <string>Integer</string>
+          </property>
+          <property name="WindowType" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QTabWidget" name="tabWidget_11">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_27">
+       <attribute name="title">
+        <string>CEGUI/RadioButton</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_8">
+        <item>
+         <widget class="QRadioButton" name="radioButton">
+          <property name="text">
+           <string>RadioButton</string>
+          </property>
+          <property name="Selected" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="GroupID" stdset="0">
+           <number>0</number>
+          </property>
+          <property name="WindowType" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_6">
+       <attribute name="title">
+        <string>DefaultWindow</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QWidget" name="DefaultWindow" native="true">
+          <property name="WindowType" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QTabWidget" name="tabWidget_20">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_40">
+       <attribute name="title">
+        <string>StaticText</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_19">
+        <item>
+         <widget class="QWidget" name="StaticText" native="true">
+          <property name="TextColours" stdset="0">
+           <string>tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF</string>
+          </property>
+          <property name="HorzFormatting" stdset="0">
+           <string>LeftAligned</string>
+          </property>
+          <property name="VertFormatting" stdset="0">
+           <string>VertCentred</string>
+          </property>
+          <property name="VertScrollbar" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="HorzScrollbar" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="HorzExtent" stdset="0">
+           <double>0.000000000000000</double>
+          </property>
+          <property name="VertExtent" stdset="0">
+           <double>0.000000000000000</double>
+          </property>
+          <property name="WindowType" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QTabWidget" name="tabWidget_19">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_38">
+       <attribute name="title">
+        <string>StaticImage</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_18">
+        <item>
+         <widget class="QWidget" name="StaticImage" native="true">
+          <property name="Image" stdset="0">
+           <string>set: image:</string>
+          </property>
+          <property name="WindowType" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QTabWidget" name="tabWidget_7">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_23">
+       <attribute name="title">
+        <string>CEGUI/Listbox</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_9">
+        <item>
+         <widget class="QListWidget" name="Listbox">
+          <property name="Sort" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="MultiSelect" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="ForceVertScrollbar" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="ForceHorzScrollbar" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="ItemTooltips" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="WindowType" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QTabWidget" name="tabWidget_17">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_35">
+       <attribute name="title">
+        <string>CEGUI/ItemListbox</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_16">
+        <item>
+         <widget class="QListWidget" name="ItemListbox">
+          <property name="MultiSelect" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="WindowType" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QTabWidget" name="tabWidget_12">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_28">
+       <attribute name="title">
+        <string>CEGUI/Tree</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_14">
+        <item>
+         <widget class="QTreeWidget" name="tree">
+          <property name="Sort" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="MultiSelect" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="ForceVertScrollbar" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="ForceHorzScrollbar" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="ItemTooltips" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="WindowType" stdset="0">
+           <string/>
+          </property>
+          <column>
+           <property name="text">
+            <string notr="true">1</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="4" column="2">
+     <widget class="QTabWidget" name="tabWidget_21">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_42">
+       <attribute name="title">
+        <string>CEGUI/MultiColumnList</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_20">
+        <item>
+         <widget class="QColumnView" name="MultiColumnList">
+          <property name="ColumnsSizable" stdset="0">
+           <bool>true</bool>
+          </property>
+          <property name="ColumnsMovable" stdset="0">
+           <bool>true</bool>
+          </property>
+          <property name="SortSettingEnabled" stdset="0">
+           <bool>true</bool>
+          </property>
+          <property name="SortDirection" stdset="0">
+           <string>None</string>
+          </property>
+          <property name="SortColumnID" stdset="0">
+           <UInt>0</UInt>
+          </property>
+          <property name="NominatedSelectionColumnID" stdset="0">
+           <UInt>0</UInt>
+          </property>
+          <property name="NominatedSelectionRow" stdset="0">
+           <UInt>0</UInt>
+          </property>
+          <property name="ForceVertScrollbar" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="ForceHorzScrollbar" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="SelectionMode" stdset="0">
+           <string>RowSingle</string>
+          </property>
+          <property name="ColumnHeader" stdset="0">
+           <string/>
+          </property>
+          <property name="WindowType" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <widget class="QTabWidget" name="ListHeaderSegment">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>CEGUI/ListHeaderSegment</string>
+       </attribute>
+      </widget>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QTabWidget" name="tabWidget_4">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_20">
+       <attribute name="title">
+        <string>CEGUI/Slider</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QSlider" name="horizontalSlider">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="CurrentValue" stdset="0">
+           <double>0.000000000000000</double>
+          </property>
+          <property name="MaximumValue" stdset="0">
+           <double>1.000000000000000</double>
+          </property>
+          <property name="ClickStepSize" stdset="0">
+           <double>0.010000000000000</double>
+          </property>
+          <property name="ReversedDirection" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="WindowType" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSlider" name="verticalSlider">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="CurrentValue" stdset="0">
+           <double>0.000000000000000</double>
+          </property>
+          <property name="MaximumValue" stdset="0">
+           <double>1.000000000000000</double>
+          </property>
+          <property name="ClickStepSize" stdset="0">
+           <double>0.010000000000000</double>
+          </property>
+          <property name="ReversedDirection" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="WindowType" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="QTabWidget" name="tabWidget_5">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_21">
+       <attribute name="title">
+        <string>CEGUI/Scrollbar</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_11">
+        <item>
+         <widget class="QScrollBar" name="verticalScrollBar">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="DocumentSize" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="PageSize" stdset="0">
+           <double>0.000000000000000</double>
+          </property>
+          <property name="StepSize" stdset="0">
+           <double>1.000000000000000</double>
+          </property>
+          <property name="OverlapSize" stdset="0">
+           <double>0.000000000000000</double>
+          </property>
+          <property name="ScrollPosition" stdset="0">
+           <double>0.000000000000000</double>
+          </property>
+          <property name="EndLockEnabled" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="WindowType" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QScrollBar" name="horizontalScrollBar">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="DocumentSize" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="PageSize" stdset="0">
+           <double>0.000000000000000</double>
+          </property>
+          <property name="StepSize" stdset="0">
+           <double>1.000000000000000</double>
+          </property>
+          <property name="OverlapSize" stdset="0">
+           <double>0.000000000000000</double>
+          </property>
+          <property name="ScrollPosition" stdset="0">
+           <double>0.000000000000000</double>
+          </property>
+          <property name="EndLockEnabled" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="WindowType" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="2" column="3">
+     <widget class="QTabWidget" name="tabWidget_15">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_31">
+       <attribute name="title">
+        <string>CEGUI/ScrollablePane</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_15">
+        <item>
+         <widget class="QScrollArea" name="scrollablePane">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <property name="ContentPaneAutoSized" stdset="0">
+           <bool>true</bool>
+          </property>
+          <property name="ContentArea" stdset="0">
+           <string>l:0.000000 t:0.000000 r:0.000000 b:0.000000</string>
+          </property>
+          <property name="ForceVertScrollbar" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="ForceHorzScrollbar" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="HorzStepSize" stdset="0">
+           <double>0.100000000000000</double>
+          </property>
+          <property name="HorzOverlapSize" stdset="0">
+           <double>0.100000000000000</double>
+          </property>
+          <property name="HorzScrollPosition" stdset="0">
+           <double>0.000000000000000</double>
+          </property>
+          <property name="VertStepSize" stdset="0">
+           <double>0.100000000000000</double>
+          </property>
+          <property name="VertOverlapSize" stdset="0">
+           <double>0.100000000000000</double>
+          </property>
+          <property name="VertScrollPosition" stdset="0">
+           <double>0.000000000000000</double>
+          </property>
+          <property name="WindowType" stdset="0">
+           <string/>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>125</width>
+             <height>61</height>
+            </rect>
+           </property>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="4" column="3">
+     <widget class="QTabWidget" name="tabWidget_13">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_29">
+       <attribute name="title">
+        <string>CEGUI/TabControl</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_13">
+        <item>
+         <widget class="QTabWidget" name="TabControl">
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <property name="TabHeight" stdset="0">
+           <string>{0.050000,0.000000}</string>
+          </property>
+          <property name="TabTextPadding" stdset="0">
+           <string>{0.000000,5.000000}</string>
+          </property>
+          <property name="TabPanePosition" stdset="0">
+           <string>top</string>
+          </property>
+          <property name="TabButtonType" stdset="0">
+           <string/>
+          </property>
+          <property name="WindowType" stdset="0">
+           <string/>
+          </property>
+          <widget class="QWidget" name="tab">
+           <attribute name="title">
+            <string>Tab 1</string>
+           </attribute>
+          </widget>
+          <widget class="QWidget" name="tab_2">
+           <attribute name="title">
+            <string>Tab 2</string>
+           </attribute>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="5" column="3">
+     <widget class="QTabWidget" name="tabWidget_6">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_22">
+       <attribute name="title">
+        <string>CEGUI/ProgressBar</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_10">
+        <item>
+         <widget class="QProgressBar" name="progressBar">
+          <property name="value">
+           <number>24</number>
+          </property>
+          <property name="CurrentProgress" stdset="0">
+           <double>0.000000000000000</double>
+          </property>
+          <property name="StepSize" stdset="0">
+           <double>0.010000000000000</double>
+          </property>
+          <property name="VerticalProgress" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="ReversedProgress" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="WindowType" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="1" column="4">
+     <widget class="QTabWidget" name="tabWidget_18">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_36">
+       <attribute name="title">
+        <string>CEGUI/GroupBox</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_17">
+        <item>
+         <widget class="QGroupBox" name="GroupBox">
+          <property name="title">
+           <string>GroupBox</string>
+          </property>
+          <property name="WindowType" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="2" column="4">
+     <widget class="QTabWidget" name="tabWidget_8">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_24">
+       <attribute name="title">
+        <string>CEGUI/Editbox</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <widget class="QLineEdit" name="Editbox">
+          <property name="ReadOnly" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="MaskText" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="MaskCodepoint" stdset="0">
+           <UInt>42</UInt>
+          </property>
+          <property name="ValidationString" stdset="0">
+           <string>.*</string>
+          </property>
+          <property name="CaratIndex" stdset="0">
+           <UInt>0</UInt>
+          </property>
+          <property name="SelectionStart" stdset="0">
+           <UInt>0</UInt>
+          </property>
+          <property name="SelectionLength" stdset="0">
+           <UInt>0</UInt>
+          </property>
+          <property name="MaxTextLength" stdset="0">
+           <UInt>1073741824</UInt>
+          </property>
+          <property name="NormalTextColour" stdset="0">
+           <string>FFFFFFFF</string>
+          </property>
+          <property name="SelectedTextColour" stdset="0">
+           <string>FFFFFFFF</string>
+          </property>
+          <property name="ActiveSelectionColour" stdset="0">
+           <string>FF6060FF</string>
+          </property>
+          <property name="InactiveSelectionColour" stdset="0">
+           <string>FF808080</string>
+          </property>
+          <property name="BlinkCaret" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="BlinkCaretTimeout" stdset="0">
+           <double>0.660000000000000</double>
+          </property>
+          <property name="TextFormatting" stdset="0">
+           <string>LeftAligned</string>
+          </property>
+          <property name="WindowType" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="4" column="4">
+     <widget class="QTabWidget" name="tabWidget_9">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_25">
+       <attribute name="title">
+        <string>CEGUI/MultiLineEditbox</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_6">
+        <item>
+         <widget class="QPlainTextEdit" name="MultiLineEditbox">
+          <property name="ReadOnly" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="WordWrap" stdset="0">
+           <bool>true</bool>
+          </property>
+          <property name="CaratIndex" stdset="0">
+           <UInt>0</UInt>
+          </property>
+          <property name="SelectionStart" stdset="0">
+           <UInt>0</UInt>
+          </property>
+          <property name="SelectionLength" stdset="0">
+           <UInt>0</UInt>
+          </property>
+          <property name="MaxTextLength" stdset="0">
+           <UInt>1073741824</UInt>
+          </property>
+          <property name="SelectionBrushImage" stdset="0">
+           <string>set: image:</string>
+          </property>
+          <property name="ForceVertScrollbar" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="BlinkCaret" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="BlinkCaretTimeout" stdset="0">
+           <double>0.660000000000000</double>
+          </property>
+          <property name="WindowType" stdset="0">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>894</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuBox_button">
+    <property name="title">
+     <string>box  button  spinner   </string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuGeneral_window">
+    <property name="title">
+     <string>general window        </string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuList_widget">
+    <property name="title">
+     <string>list widget                                     </string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuScrollbar_slider_tabcontrol">
+    <property name="title">
+     <string>scrollbar  slider  tabcontrol</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuFramewindow_editbox">
+    <property name="title">
+     <string>framewindow  editbox</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string/>
+    </property>
+   </widget>
+   <addaction name="menuBox_button"/>
+   <addaction name="menuGeneral_window"/>
+   <addaction name="menuList_widget"/>
+   <addaction name="menuScrollbar_slider_tabcontrol"/>
+   <addaction name="menuFramewindow_editbox"/>
+   <addaction name="menu"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

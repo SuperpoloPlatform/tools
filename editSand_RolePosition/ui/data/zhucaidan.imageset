@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset xmlns:mx="http://www.adobe.com/2006/mxml" Name="zhucaidan" Imagefile="zhucaidan.png" >
+
+	<Image Name="zhu_footright" XPos="98" YPos="41" Width="35" Height="17"/>
+	<Image Name="zhu_footmiddle" XPos="49" YPos="41" Width="37" Height="17"/>
+	<Image Name="zhu_footleft" XPos="6" YPos="41" Width="32" Height="17"/>
+	
+	<Image Name="zhu_middleright" XPos="98" YPos="20" Width="35" Height="12"/>
+	<Image Name="zhu_middlemiddle" XPos="49" YPos="20" Width="37" Height="12"/>
+	<Image Name="zhu_middleleft" XPos="7" YPos="20" Width="33" Height="12"/>
+	
+	<Image Name="zhu_titleright" XPos="98" YPos="305" Width="35" Height="20"/>
+	<Image Name="zhu_titlemiddle" XPos="48" YPos="305" Width="40" Height="20"/>
+	<Image Name="zhu_titleleft" XPos="6" YPos="305" Width="32" Height="20"/>
+	
+	<Image Name="daohang_tishi" XPos="142" YPos="3" Width="86" Height="47"/>
+	
+	<Image Name="btn_shijiaokongzhi_normal" XPos="54" YPos="62" Width="40" Height="51"/>
+	<Image Name="btn_shijiaokongzhi_hover" XPos="7" YPos="62" Width="40" Height="51"/>
+	<Image Name="btn_dongzuosuoding_normal" XPos="54" YPos="119" Width="39" Height="51"/>
+	<Image Name="btn_dongzuosuoding_hover" XPos="7" YPos="119" Width="39" Height="51"/>
+	<Image Name="btn_shijiaoqiehuan_normal" XPos="54" YPos="175" Width="39" Height="51"/>
+	<Image Name="btn_shijiaoqiehuan_hover" XPos="7" YPos="174" Width="39" Height="51"/>
+	<Image Name="btn_zoupaoqiehuan_normal" XPos="53" YPos="231" Width="40" Height="51"/>
+	<Image Name="btn_zoupaoqiehuan_hover" XPos="7" YPos="231" Width="40" Height="51"/>
+	<Image Name="btn_yuyanqiehuan_normal" XPos="149" YPos="64" Width="39" Height="51"/>
+	<Image Name="btn_yuyanqiehuan_hover" XPos="103" YPos="64" Width="39" Height="51"/>
+	<Image Name="btn_manyouluxian_normal" XPos="149" YPos="176" Width="40" Height="51"/>
+	<Image Name="btn_manyouluxian_hover" XPos="103" YPos="176" Width="40" Height="51"/>
+	<Image Name="btn_paizhao_normal" XPos="149" YPos="119" Width="40" Height="51"/>
+	<Image Name="btn_paizhao_hover" XPos="103" YPos="119" Width="40" Height="51"/>
+	<Image Name="btn_shezhi_normal" XPos="149" YPos="231" Width="39" Height="51"/>
+	<Image Name="btn_shezhi_hover" XPos="103" YPos="231" Width="39" Height="51"/>
+	<Image Name="btn_bangzhu_normal" XPos="199" YPos="119" Width="39" Height="51"/>
+	<Image Name="btn_bangzhu_hover" XPos="199" YPos="64" Width="39" Height="51"/>
+	<Image Name="window_xiaoditu_normal" XPos="199" YPos="231" Width="40" Height="51"/>
+	<Image Name="window_xiaoditu_hover" XPos="199" YPos="176" Width="40" Height="51"/>
+	<Image Name="btn_jie_hover" XPos="243" YPos="64" Width="39" Height="51"/>
+	<Image Name="btn_jie_normal" XPos="243" YPos="119" Width="39" Height="51"/>
+	<Image Name="btn_zuo_hover" XPos="244" YPos="176" Width="40" Height="51"/>
+	<Image Name="btn_zuo_normal" XPos="244" YPos="231" Width="40" Height="51"/>
+	<Image Name="btn_xiaoyuanjieshao_normal" XPos="290" YPos="64" Width="39" Height="51"/>
+	<Image Name="btn_xiaoyuanjieshao_hover" XPos="290" YPos="119" Width="39" Height="51"/>
+	
+	<Image Name="music_open" XPos="299" YPos="176" Width="49" Height="42"/>
+	<Image Name="music_close" XPos="299" YPos="242" Width="21" Height="29"/>
+	
+	<Image Name="fangda_hover" XPos="244" YPos="7" Width="20" Height="19"/>
+	<Image Name="suoxiao_hover" XPos="244" YPos="36" Width="20" Height="20"/>
+	<Image Name="fangda_normal" XPos="272" YPos="7" Width="20" Height="19"/>
+	<Image Name="suoxiao_normal" XPos="273" YPos="36" Width="20" Height="20"/>
+	<Image Name="fangda_suoxiao_bg" XPos="299" YPos="1" Width="28" Height="62"/>
+	<Image Name="mouse_jian" XPos="347" YPos="11" Width="27" Height="26"/> 
+	<Image Name="duuigou_img" XPos="348" YPos="75" Width="27" Height="26"/> 
+	<Image Name="xinxi_hover" XPos="344" YPos="114" Width="35" Height="27"/> 
+</Imageset>

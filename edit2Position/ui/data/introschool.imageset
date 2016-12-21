@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset xmlns:mx="http://www.adobe.com/2006/mxml" Name="introschool" Imagefile="introschool.png" >
+	<Image Name="btn_close" XPos="243" YPos="18" Width="24" Height="22"/>
+	<Image Name="tab_normal" XPos="92" YPos="3" Width="110" Height="30"/>
+	<Image Name="tab_hover" XPos="92" YPos="40" Width="110" Height="30"/>
+	<Image Name="btn_down" XPos="5" YPos="10" Width="73" Height="25"/>
+	<Image Name="btn_normal" XPos="5" YPos="41" Width="73" Height="25"/>
+	<Image Name="btn_tab_left" XPos="264" YPos="55" Width="12" Height="11"/>
+	<Image Name="btn_tab_right" XPos="245" YPos="54" Width="12" Height="11"/>
+	<Image Name="text_border_normal" XPos="5" YPos="74" Width="278" Height="23"/>
+	<Image Name="text_border_down" XPos="5" YPos="107" Width="278" Height="23"/>
+	<Image Name="line" XPos="8" YPos="138" Width="275" Height="4"/>
+	<Image Name="scroll_up" XPos="213" YPos="22" Width="17" Height="22"/>
+	<Image Name="scroll_bar" XPos="296" YPos="4" Width="15" Height="134"/>
+	<Image Name="scroll_down" XPos="213" YPos="48" Width="17" Height="22"/>
+</Imageset>

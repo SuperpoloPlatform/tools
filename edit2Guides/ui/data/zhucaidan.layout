@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="General/DefaultWindow" Name="root" >
+        <Property Name="UnifiedMaxSize" Value="{{2,0},{2,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0.161611,0},{0.513259,0},{0.784662,0},{1.00817,0}}" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Window Type="General/Button" Name="guides/init/save" >
+            <Property Name="HoverImage" Value="set:introschool image:btn_down" />
+            <Property Name="text_theme" Value="保存" />
+            <Property Name="NormalImage" Value="set:introschool image:btn_down" />
+            <Property Name="PushedImage" Value="set:introschool image:btn_down" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="HoverTextColour" Value="FF000000" />
+            <Property Name="UnifiedAreaRect" Value="{{0.669458,0},{0.0818779,0},{0.820777,0},{0.177436,0}}" />
+            <Property Name="NormalTextColour" Value="FF000000" />
+            <Property Name="PushedTextColour" Value="FF000000" />
+        </Window>
+        <Window Type="General/DefaultWindow" Name="guides/init" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0435578,0},{0.00559927,0},{0.867772,0},{0.291223,0}}" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="General/Button" Name="guides/init/introduce" >
+                <Property Name="HoverImage" Value="set:introschool image:btn_down" />
+                <Property Name="text_theme" Value="点击我--获取导游的初始位置" />
+                <Property Name="NormalImage" Value="set:introschool image:btn_down" />
+                <Property Name="PushedImage" Value="set:introschool image:btn_down" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.092436,0},{0.273275,0},{0.458748,0},{0.605908,0}}" />
+                <Property Name="NormalTextColour" Value="FF000000" />
+                <Property Name="PushedTextColour" Value="FF000000" />
+            </Window>
+        </Window>
+        <Window Type="General/DefaultWindow" Name="guides/road" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0421946,0},{0.573001,0},{0.966994,0},{0.976065,0}}" />
+            <Window Type="General/Button" Name="guides/road/ok" >
+                <Property Name="HoverImage" Value="set:introschool image:btn_down" />
+                <Property Name="text_theme" Value="确定" />
+                <Property Name="NormalImage" Value="set:introschool image:btn_down" />
+                <Property Name="PushedImage" Value="set:introschool image:btn_down" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.130183,0},{0.552357,0},{0.256297,0},{0.764683,0}}" />
+                <Property Name="NormalTextColour" Value="FF000000" />
+                <Property Name="PushedTextColour" Value="FF000000" />
+            </Window>
+            <Window Type="General/Button" Name="guides/road/cancel" >
+                <Property Name="HoverImage" Value="set:introschool image:btn_down" />
+                <Property Name="text_theme" Value="取消" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:introschool image:btn_down" />
+                <Property Name="PushedImage" Value="set:introschool image:btn_down" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.411071,0},{0.563146,0},{0.536769,0},{0.77547,0}}" />
+                <Property Name="NormalTextColour" Value="FF000000" />
+                <Property Name="PushedTextColour" Value="FF000000" />
+            </Window>
+            <Window Type="General/Button" Name="guides/road/save" >
+                <Property Name="HoverImage" Value="set:introschool image:btn_down" />
+                <Property Name="text_theme" Value="保存" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:introschool image:btn_down" />
+                <Property Name="PushedImage" Value="set:introschool image:btn_down" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.680287,0},{0.566718,0},{0.817211,0},{0.775182,0}}" />
+                <Property Name="NormalTextColour" Value="FF000000" />
+                <Property Name="PushedTextColour" Value="FF000000" />
+            </Window>
+            <Window Type="General/Button" Name="guides/road_one/btn" >
+                <Property Name="HoverImage" Value="set:introschool image:btn_down" />
+                <Property Name="text_theme" Value="导游路线1" />
+                <Property Name="NormalImage" Value="set:introschool image:btn_down" />
+                <Property Name="PushedImage" Value="set:introschool image:btn_down" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0880681,0},{0.108773,0},{0.2966,0},{0.359806,0}}" />
+                <Property Name="NormalTextColour" Value="FF000000" />
+                <Property Name="PushedTextColour" Value="FF000000" />
+            </Window>
+            <Window Type="General/Button" Name="guides/road_two/btn" >
+                <Property Name="HoverImage" Value="set:introschool image:btn_down" />
+                <Property Name="text_theme" Value="导游路线2" />
+                <Property Name="NormalImage" Value="set:introschool image:btn_down" />
+                <Property Name="PushedImage" Value="set:introschool image:btn_down" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.375955,0},{0.119634,0},{0.585544,0},{0.356489,0}}" />
+                <Property Name="NormalTextColour" Value="FF000000" />
+                <Property Name="PushedTextColour" Value="FF000000" />
+            </Window>
+            <Window Type="General/Button" Name="guides/special_guides" >
+                <Property Name="HoverImage" Value="set:introschool image:btn_down" />
+                <Property Name="text_theme" Value="定点导游" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:introschool image:btn_down" />
+                <Property Name="PushedImage" Value="set:introschool image:btn_down" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.66444,0},{0.121226,0},{0.875282,0},{0.365136,0}}" />
+                <Property Name="NormalTextColour" Value="FF000000" />
+                <Property Name="PushedTextColour" Value="FF000000" />
+            </Window>
+        </Window>
+        <Window Type="General/DefaultWindowBackground" Name="guides_point/name" >
+			<Property Name="Visible" Value="false" />
+			<Property Name="text_theme" Value="name（中文/英文)" />
+            	<Property Name="AlwaysOnTop" Value="True" />
+            	<Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            	<Property Name="UnifiedAreaRect" Value="{{0.116047,0},{0.241091,0},{0.869199,0},{0.561713,0}}" />
+           		<Window Type="General/Editbox" Name="guides_point/chinese_name" >
+	                <Property Name="MaxTextLength" Value="30" />
+	                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+	                <Property Name="UnifiedAreaRect" Value="{{0.0665496,0},{0.485388,0},{0.31655,0},{0.735388,0}}" />
+	         	</Window>
+	         	<Window Type="General/Editbox" Name="guides_point/english_name" >
+	                <Property Name="AlwaysOnTop" Value="True" />
+	                <Property Name="MaxTextLength" Value="30" />
+	                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+	                <Property Name="UnifiedAreaRect" Value="{{0.614279,0},{0.468302,0},{0.864278,0},{0.718301,0}}" />
+	         	</Window>
+        </Window>
+    </Window>
+</GUILayout>
